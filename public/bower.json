@@ -1,0 +1,21 @@
+{
+  "name": "Dave Brubeck App",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vedovelli/dave_brubeck",
+  "authors": [
+    "Vedovelli <vedovelli@gmail.com>"
+  ],
+  "description": "Curso de Laravel 5 pela Novatec Editora",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
