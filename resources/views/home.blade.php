@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layout/sbadmin')
 
 @section('content')
 <div class="container">
