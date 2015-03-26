@@ -31,8 +31,7 @@
         <td>{{$user->updated_at}}</td>
       </tr>
       <tr>
-        <td></td>
-        <td>
+        <td colspan="2">
           <a href="{{route('profile_edit_route')}}" class="btn btn-primary">editar</a>
         </td>
       </tr>
