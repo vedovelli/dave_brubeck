@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{!!route('dashboard.index')!!}">Dave Brubeck</a>
+                <a class="navbar-brand" href="{!!route('dashboard.index')!!}"><strong>Dave Brubeck App</strong> <small>v{!!env('VERSION')!!}</small></a>
             </div>
             <!-- /.navbar-header -->
 

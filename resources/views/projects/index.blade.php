@@ -2,8 +2,8 @@
 
 @section('content')
 <h1 class="page-header">
-  <i class="fa fa-check-circle"></i>
-  Projetos
+  <i class="fa fa-clipboard"></i>
+  Projetos <small><a href="{!!route('project.create')!!}">[novo]</a></small>
 </h1>
 
 @endsection

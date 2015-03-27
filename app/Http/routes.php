@@ -41,6 +41,7 @@ Route::group(['middleware' => 'auth'], function()
   Route::group(['prefix' => 'projetos'], function()
   {
     Route::get('', ['as' => 'project.index', 'uses' => 'ProjectController@index']);
+    Route::get('novo', ['as' => 'project.create', 'uses' => 'ProjectController@create']);
   });
 });
 
