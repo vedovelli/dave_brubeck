@@ -194,7 +194,7 @@
         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
     </a>
     <ul class="dropdown-menu dropdown-user">
-        <li><a href="{{route('profile_route')}}">
+        <li><a href="{{route('profile.index')}}">
             <img src="http://www.gravatar.com/avatar/{{md5(Auth::user()->email)}}?s=20">
             Perfil do Usuário</a>
         </li>

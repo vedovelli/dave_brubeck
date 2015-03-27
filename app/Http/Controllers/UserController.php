@@ -20,6 +20,6 @@ class UserController extends Controller {
     $user = Auth::user();
     $user->fill(Request::input());
     $user->save();
-    return redirect()->route('profile_route');
+    return redirect()->route('profile.index');
   }
 }

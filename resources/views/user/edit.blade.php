@@ -7,7 +7,7 @@
     Perfil de Usuário
   </h1>
 
-  {!! Form::open(['route' => 'profile_update_route']) !!}
+  {!! Form::open(['route' => 'profile.update']) !!}
 
   <table class="table table-bordered table-striped">
     <tbody>
@@ -37,7 +37,7 @@
       <tr>
         <td colspan="2">
           <div class="row">
-            <div class="col-md-6"><a href="{{route('profile_route')}}" class="btn btn-default">
+            <div class="col-md-6"><a href="{{route('profile.index')}}" class="btn btn-default">
               <i class="fa fa-arrow-left"></i>
               voltar
             </a></div>
