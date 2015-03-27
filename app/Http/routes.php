@@ -4,15 +4,13 @@ Route::group(['middleware' => 'auth'], function()
 {
   Route::get('/', ['as' => 'dashboard_route', 'uses' => 'DashboardController@index']);
 
-  Route::resource('category', 'CategoryController');
-
-  Route::group(['prefix' => 'category'], function()
+  Route::group(['prefix' => 'categorias'], function()
   {
     Route::get('', ['as' => 'category.index', 'uses' => 'CategoryController@index']);
     Route::post('store', ['as' => 'category.store', 'uses' => 'CategoryController@store']);
-    Route::get('{id}/edit', ['as' => 'category.edit', 'uses' => 'CategoryController@edit']);
-    Route::post('{id}/update', ['as' => 'category.update', 'uses' => 'CategoryController@update']);
-    Route::get('{id}/destroy', ['as' => 'category.destroy', 'uses' => 'CategoryController@destroy']);
+    Route::get('{id}/editar', ['as' => 'category.edit', 'uses' => 'CategoryController@edit']);
+    Route::post('{id}/atualizar', ['as' => 'category.update', 'uses' => 'CategoryController@update']);
+    Route::get('{id}/remover', ['as' => 'category.destroy', 'uses' => 'CategoryController@destroy']);
   });
 
   Route::group(['prefix' => 'profile'], function()
