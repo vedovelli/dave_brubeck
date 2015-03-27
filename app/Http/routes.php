@@ -13,11 +13,11 @@ Route::group(['middleware' => 'auth'], function()
     Route::get('{id}/remover', ['as' => 'category.destroy', 'uses' => 'CategoryController@destroy']);
   });
 
-  Route::group(['prefix' => 'profile'], function()
+  Route::group(['prefix' => 'perfil'], function()
   {
     Route::get('', ['as' => 'profile_route', 'uses' => 'UserController@profile']);
-    Route::get('edit', ['as' => 'profile_edit_route', 'uses' => 'UserController@edit']);
-    Route::post('update', ['as' => 'profile_update_route', 'uses' => 'UserController@update']);
+    Route::get('editar', ['as' => 'profile_edit_route', 'uses' => 'UserController@edit']);
+    Route::post('atualizar', ['as' => 'profile_update_route', 'uses' => 'UserController@update']);
   });
 });
 

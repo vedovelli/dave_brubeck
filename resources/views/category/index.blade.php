@@ -85,7 +85,7 @@
       <div class="row">
         <div class="col-md-6">
           @if($selectedCategory != null && $selectedCategory->id > 0)
-          <a href="{{route('category.index')}}" class="btn btn-default">Cancelar</a>
+          <a href="{{route('category.index', ['page' => $categories->currentPage(), 'search' => $search])}}" class="btn btn-default">Cancelar</a>
           @endif
         </div>
         <div class="col-md-6 text-right">
