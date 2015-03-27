@@ -1,18 +1,18 @@
 <?php namespace App\Http\Controllers;
 
-use \App\Models\Category as Category;
 use \Request as Request;
 use \App\Dave\Services\Validators\Category as Validator;
+use \App\Dave\Repositories\ICategoryRepository as Repository;
 
 class CategoryController extends Controller
 {
 
-  protected $model;
+  protected $repository;
   protected $validator;
 
-  function __construct(Category $model, Validator $validator)
+  function __construct(Repository $repository, Validator $validator)
   {
-    $this->model = $model;
+    $this->repository = $repository;
     $this->validator = $validator;
   }
 
@@ -20,15 +20,11 @@ class CategoryController extends Controller
   {
     $search = Request::get('search');
 
-    $categories = $this->model->_list($search);
+    $categories = $this->repository->categories($search);
 
-    $categoryData = [
-      'search' => $search,
-      'categories' => $categories,
-      'selectedCategory' => null,
-    ];
+    $selectedCategory = null;
 
-    return view('category.index')->with($categoryData);
+    return view('category.index')->with(compact('search', 'categories', 'selectedCategory'));
   }
 
   public function store()
@@ -40,7 +36,7 @@ class CategoryController extends Controller
       return redirect()->back()->withError($this->validator->getErrors());
     }
 
-    $this->model->_store($request);
+    $this->repository->store($request);
 
     return redirect()->back()->with('success', 'Categoria criada com sucesso!');
   }
@@ -49,17 +45,11 @@ class CategoryController extends Controller
   {
     $search = Request::get('search');
 
-    $categories = $this->model->_list($search);
+    $categories = $this->repository->categories($search);
 
-    $category = $this->model->_show($id);
+    $selectedCategory = $this->repository->show($id);
 
-    $categoryData = [
-      'search' => $search,
-      'categories' => $categories,
-      'selectedCategory' => $category,
-    ];
-
-    return view('category.index')->with($categoryData);
+    return view('category.index')->with(compact('search', 'categories', 'selectedCategory'));
   }
 
   public function update($id)
@@ -71,15 +61,17 @@ class CategoryController extends Controller
       return redirect()->back()->with('error', 'Nome da categoria é obrigatório!');
     }
 
-    $this->model->_update($id, $request);
+    $this->repository->update($id, $request);
 
     return redirect()->back()->with('success', 'Categoria atualizada com sucesso!');
   }
 
   public function destroy($id)
   {
-    $this->model->_destroy($id);
+    $this->repository->destroy($id);
+
     $page = 'page=' . Request::get('page', 1);
+
     return redirect()->route('category.index', $page)->with('destroy', 'Categoria removida com sucesso!');
   }
 
