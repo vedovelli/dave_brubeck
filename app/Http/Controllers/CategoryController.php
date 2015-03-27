@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use \Request as Request;
+use \Response as Response;
 use \App\Dave\Services\Validators\Category as Validator;
 use \App\Dave\Repositories\ICategoryRepository as Repository;
 
@@ -19,6 +20,15 @@ class CategoryController extends Controller
   public function index()
   {
     $search = Request::get('search');
+
+    if(Request::ajax())
+    {
+      $paginate = false;
+
+      $categories = $this->repository->categories($search, $paginate);
+
+      return Response::json($categories, 200);
+    }
 
     $categories = $this->repository->categories($search);
 

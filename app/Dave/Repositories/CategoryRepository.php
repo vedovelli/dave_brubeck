@@ -4,16 +4,24 @@ use App\Models\Category;
 
 class CategoryRepository implements ICategoryRepository
 {
-  public function categories($search = null)
+  public function categories($search = null, $paginate = true)
   {
     $result = null;
 
-    if(!is_null($search) && !empty($search))
+    if($paginate)
     {
-      return Category::where('name', 'like', "%$search%")->paginate(env('PAGINATION_ITEMS', 10));
+      if(!is_null($search) && !empty($search))
+      {
+        return Category::where('name', 'like', "%$search%")->paginate(env('PAGINATION_ITEMS', 10));
+      }
+
+      return Category::paginate(env('PAGINATION_ITEMS', 10));
     }
 
-    return Category::paginate(env('PAGINATION_ITEMS', 10));
+    /**
+    * Este, sem paginação, visa atender à API
+    */
+    return Category::where('name', 'like', "%$search%")->get();
   }
 
   public function show($id)

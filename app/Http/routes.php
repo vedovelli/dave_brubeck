@@ -1,7 +1,16 @@
 <?php
 
+Route::group(['prefix' => 'api', 'middleware' => 'auth.basic'], function()
+{
+  Route::get('categorias', ['uses' => 'CategoryController@index']);
+});
+
 Route::group(['middleware' => 'auth'], function()
 {
+
+  /**
+  * Dashboard
+  */
   Route::get('/', ['as' => 'dashboard.index', 'uses' => 'DashboardController@index']);
 
   /**
@@ -31,9 +40,7 @@ Route::group(['middleware' => 'auth'], function()
   */
   Route::group(['prefix' => 'projetos'], function()
   {
-    // Route::get('', ['as' => 'profile_route', 'uses' => 'UserController@profile']);
-    // Route::get('editar', ['as' => 'profile_edit_route', 'uses' => 'UserController@edit']);
-    // Route::post('atualizar', ['as' => 'profile_update_route', 'uses' => 'UserController@update']);
+    Route::get('', ['as' => 'project.index', 'uses' => 'ProjectController@index']);
   });
 });
 
