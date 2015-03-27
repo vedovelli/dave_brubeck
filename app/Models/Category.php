@@ -6,10 +6,18 @@ use \DB as DB;
 class Category extends Model
 {
   protected $fillable = ['name'];
+  protected $paginationItems = 15;
 
-  public function _list()
+  public function _list($search = null)
   {
-    return $this->paginate(10);
+    $result = null;
+
+    if(!is_null($search) && !empty($search))
+    {
+      return $this->where('name', 'like', "%$search%")->paginate($this->paginationItems);
+    }
+
+    return $this->paginate($this->paginationItems);
   }
 
   public function _show($id)

@@ -90,6 +90,8 @@
     <!-- Custom Theme JavaScript -->
     <script src="/js/app.js"></script>
 
+    @yield('scripts')
+
 </body>
 
 </html>

@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder {
 		Model::unguard();
 
 		// $this->call('UserTableSeeder');
-		// $this->call('CategoryTableSeeder');
+		$this->call('CategoryTableSeeder');
 	}
 
 }
@@ -26,10 +26,12 @@ class CategoryTableSeeder extends Seeder{
 
 	public function run()
 	{
-		for($i = 0; $i < 10; $i++)
+		DB::table('categories')->delete();
+
+		for($i = 0; $i < 276; $i++)
 		{
 			$faker = Faker\Factory::create();
-			Category::create(['name' => $faker->word]);
+			Category::create(['name' => $faker->sentence]);
 		}
 	}
 }

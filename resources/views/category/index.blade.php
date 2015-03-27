@@ -15,6 +15,13 @@
 
 <div class="row">
   <div class="col-md-6 text-center">
+
+    {{-- Search --}}
+    <div class="well">
+      @include('partials.search', ['search' => $search, 'route' => route('category.index')])
+    </div>
+
+    {{-- List --}}
     <table class="table table-striped table-bordered table-hover">
       <thead>
         <tr>
@@ -30,15 +37,20 @@
           <td width="1%" nowrap>{{$category->id}}</td>
           <td>{{$category->name}}</td>
           <td width="10%">soon</td>
-          <td width="1%" nowrap>[<a href="{{route('category.edit', ['id' => $category->id, 'page' => $categories->currentPage()])}}">editar</a>] [<a href="{{route('category.destroy', ['id' => $category->id, 'page' => $categories->currentPage()])}}" class="text-danger">excluir</a>]</td>
+          <td width="1%" nowrap>[<a href="{{route('category.edit', ['id' => $category->id, 'page' => $categories->currentPage(), 'search' => $search])}}">editar</a>] [<a href="{{route('category.destroy', ['id' => $category->id, 'page' => $categories->currentPage()])}}" class="text-danger">excluir</a>]</td>
         </tr>
         @endforeach
       </tbody>
     </table>
-  {!!$categories->render()!!}
+
+    {{-- Pagination --}}
+    {!!$categories->appends(Request::except('page'))->render()!!}
+
+
   </div>
   <div class="col-md-6">
 
+    {{-- Alert --}}
     @if(Session::has('success'))
     <div class="alert alert-success alert-dismissible" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -46,13 +58,20 @@
     </div>
     @endif
 
+    {{-- Alert --}}
     @if(Session::has('error'))
     <div class="alert alert-danger alert-dismissible" role="alert">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Atenção!</strong> {{Session::get('error')}}
+      <strong>Atenção!</strong>
+      <p>
+      @foreach(Session::get('error')->all() as $error)
+      &bull; {{$error}} <br>
+      @endforeach
+      </p>
     </div>
     @endif
 
+    {{-- Form --}}
     @if($selectedCategory != null && $selectedCategory->id > 0)
     {!! Form::open(['url' => route('category.update', ['id' => $selectedCategory->id]), 'class' => 'category-form']) !!}
     @else
@@ -72,7 +91,7 @@
         <div class="col-md-6 text-right">
           <button class="btn btn-success dave-btn-salvar" type="submit" data-loading-text="Salvando...">
             Salvar
-            <i class="fa fa-check"></i>
+            <i class="fa fa-save"></i>
           </button>
         </div>
       </div>
