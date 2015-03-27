@@ -14,7 +14,7 @@
 @endif
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6 text-center">
     <table class="table table-striped table-bordered table-hover">
       <thead>
         <tr>
@@ -30,11 +30,12 @@
           <td width="1%" nowrap>{{$category->id}}</td>
           <td>{{$category->name}}</td>
           <td width="10%">soon</td>
-          <td width="1%" nowrap>[<a href="{{route('category.edit', ['id' => $category->id])}}">editar</a>] [<a href="{{route('category.destroy', ['id' => $category->id])}}" class="text-danger">excluir</a>]</td>
+          <td width="1%" nowrap>[<a href="{{route('category.edit', ['id' => $category->id, 'page' => $categories->currentPage()])}}">editar</a>] [<a href="{{route('category.destroy', ['id' => $category->id, 'page' => $categories->currentPage()])}}" class="text-danger">excluir</a>]</td>
         </tr>
         @endforeach
       </tbody>
     </table>
+  {!!$categories->render()!!}
   </div>
   <div class="col-md-6">
 
@@ -53,19 +54,23 @@
     @endif
 
     @if($selectedCategory != null && $selectedCategory->id > 0)
-    {!! Form::open(['url' => route('category.update', ['id' => $selectedCategory->id])]) !!}
+    {!! Form::open(['url' => route('category.update', ['id' => $selectedCategory->id]), 'class' => 'category-form']) !!}
     @else
-    {!! Form::open(['url' => route('category.store')]) !!}
+    {!! Form::open(['url' => route('category.store'), 'class' => 'category-form']) !!}
     @endif
 
-    <input type="hidden" name="id" value="{{$selectedCategory != null ? $selectedCategory->id : ''}}">
       <div class="form-group">
         <label for="name" class="control-label">Categoria</label>
-        <input class="form-control" type="text" name="name" value="{{$selectedCategory != null ? $selectedCategory->name : ''}}" id="name">
+        <input class="form-control" type="text" name="name" value="{{$selectedCategory != null ? $selectedCategory->name : ''}}" id="name" autofocus>
       </div>
       <div class="row">
-        <div class="col-md-12 text-right">
-          <button class="btn btn-success" type="submit">
+        <div class="col-md-6">
+          @if($selectedCategory != null && $selectedCategory->id > 0)
+          <a href="{{route('category.index')}}" class="btn btn-default">Cancelar</a>
+          @endif
+        </div>
+        <div class="col-md-6 text-right">
+          <button class="btn btn-success dave-btn-salvar" type="submit" data-loading-text="Salvando...">
             Salvar
             <i class="fa fa-check"></i>
           </button>
@@ -74,7 +79,5 @@
     {!! Form::close() !!}
   </div>
 </div>
-
-
 
 @endsection

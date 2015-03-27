@@ -2,6 +2,20 @@
 {
   $(document).ready(function()
   {
+    /**
+    * Dave Brubeck scripts
+    */
+    var $categoryForm = $('.category-form');
+
+    $categoryForm.on('submit', function()
+    {
+        $(this).find('.dave-btn-salvar').button('loading');
+    });
+
+
+    /**
+    * SB Admin scripts
+    */
     $('#side-menu').metisMenu();
 
     $(window).bind("load resize", function() {

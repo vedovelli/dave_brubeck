@@ -1,6 +1,7 @@
 <?php namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use \DB as DB;
 
 class Category extends Model
 {
@@ -8,7 +9,7 @@ class Category extends Model
 
   public function _list()
   {
-    return $this->all();
+    return $this->paginate(10);
   }
 
   public function _show($id)

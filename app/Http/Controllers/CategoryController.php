@@ -58,7 +58,8 @@ class CategoryController extends Controller
   public function destroy($id)
   {
     $this->model->_destroy($id);
-    return redirect()->back()->with('destroy', 'Categoria removida com sucesso!');
+    $page = 'page=' . Request::get('page', 1);
+    return redirect()->route('category.index', $page)->with('destroy', 'Categoria removida com sucesso!');
   }
 
   private function _validate($request)
