@@ -12,7 +12,7 @@ class CreatePagesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('davbr_pages', function(Blueprint $table)
+		Schema::create('pages', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('user_id');
@@ -30,7 +30,7 @@ class CreatePagesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('davbr_pages');
+		Schema::drop('pages');
 	}
 
 }

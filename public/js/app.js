@@ -3,6 +3,12 @@
   $(document).ready(function()
   {
     /**
+    * Dave scripts
+    */
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+    /**
     * SB Admin scripts
     */
     $('#side-menu').metisMenu();

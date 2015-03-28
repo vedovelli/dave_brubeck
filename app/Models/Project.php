@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model {
 
-	protected $fillable = ['name', 'description'];
+	protected $fillable = ['name', 'description', 'user_id'];
 
   public function members()
   {
@@ -14,6 +14,11 @@ class Project extends Model {
   public function categories()
   {
     return $this->belongsToMany('App\Models\Category');
+  }
+
+  public function owner()
+  {
+    return $this->belongsTo('App\Models\User', 'user_id');
   }
 
 }

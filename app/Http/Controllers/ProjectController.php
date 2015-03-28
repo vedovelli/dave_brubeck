@@ -75,7 +75,9 @@ class ProjectController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		$project = $this->projects->show($id);
+
+		return view('projects.details')->with(compact('project'));
 	}
 
 	/**

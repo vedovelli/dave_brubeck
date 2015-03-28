@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSectionsTable extends Migration {
+class AddOwnerToProject extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,13 +12,9 @@ class CreateSectionsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('sections', function(Blueprint $table)
+		Schema::table('projects', function($table)
 		{
-			$table->increments('id');
-			$table->integer('user_id');
-			$table->integer('project_id');
-			$table->string('name', 45);
-			$table->timestamps();
+			$table->integer('owner')->after('id');
 		});
 	}
 
@@ -29,7 +25,10 @@ class CreateSectionsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('sections');
+		Schema::table('projects', function($table)
+		{
+			$table->dropColumn('owner');
+		});
 	}
 
 }

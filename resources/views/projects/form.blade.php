@@ -19,8 +19,18 @@
 {!!Form::open(['url' => route('project.store')])!!}
 
 <div class="form-group">
+  <label for="owner" class="control-label">Líder do Projeto</label>
+  <select name="user_id" id="owner" class="form-control">
+    <option selected></option>
+    @foreach($users as $user)
+    <option value="{!!$user['id']!!}">{!!$user['name']!!}</option>
+    @endforeach
+  </select>
+</div>
+
+<div class="form-group">
   <label for="name" class="control-label">Nome do Projeto</label>
-  <input class="form-control" type="text" name="name" value="{!!$project != null ? $project->name : ''!!}" id="name" autofocus>
+  <input class="form-control" type="text" name="name" value="{!!$project != null ? $project->name : ''!!}" id="name">
 </div>
 
 <div class="form-group">
