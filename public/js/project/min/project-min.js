@@ -1,0 +1,1 @@
+!function($){"use strict";$(document).ready(function(){var e=$("#categories"),o=$("#members");e.select2({placeholder:"Selecionar uma ou mais categorias"}),o.select2({placeholder:"Selecionar um ou mais membros"})})}(window.jQuery);

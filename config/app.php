@@ -51,7 +51,7 @@ return [
 	| to any of the locales which will be supported by the application.
 	|
 	*/
-	'locale' => 'en',
+	'locale' => 'pt-BR',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -194,6 +194,7 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'Form' 			=> 'Illuminate\Html\FormFacade',
 		'Html' 			=> 'Illuminate\Html\HtmlFacade',
+		'Carbon' 		=> 'Carbon\Carbon',
 
 	],
 

@@ -42,6 +42,7 @@ Route::group(['middleware' => 'auth'], function()
   {
     Route::get('', ['as' => 'project.index', 'uses' => 'ProjectController@index']);
     Route::get('novo', ['as' => 'project.create', 'uses' => 'ProjectController@create']);
+    Route::post('salvar', ['as' => 'project.store', 'uses' => 'ProjectController@store']);
   });
 });
 

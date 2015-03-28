@@ -27,7 +27,7 @@
         <tr>
           <th>ID</th>
           <th>Categoria</th>
-          <th>Páginas</th>
+          <th>Projetos</th>
           <th>Ações</th>
         </tr>
       </thead>
@@ -36,7 +36,7 @@
         <tr>
           <td width="1%" nowrap>{{$category->id}}</td>
           <td>{{$category->name}}</td>
-          <td width="10%">soon</td>
+          <td width="10%">{!!count($category->projects)!!}</td>
           <td width="1%" nowrap>[<a href="{{route('category.edit', ['id' => $category->id, 'page' => $categories->currentPage(), 'search' => $search])}}">editar</a>] [<a href="{{route('category.destroy', ['id' => $category->id, 'page' => $categories->currentPage()])}}" class="text-danger">excluir</a>]</td>
         </tr>
         @endforeach

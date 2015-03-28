@@ -12,7 +12,7 @@ class CreateProjectsUsersTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('davbr_projects_users', function(Blueprint $table)
+		Schema::create('davbr_project_user', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('project_id');
@@ -27,7 +27,7 @@ class CreateProjectsUsersTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('davbr_projects_users');
+		Schema::drop('davbr_project_user');
 	}
 
 }

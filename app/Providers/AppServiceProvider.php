@@ -34,6 +34,16 @@ class AppServiceProvider extends ServiceProvider {
 			'App\Dave\Repositories\ICategoryRepository',
 			'App\Dave\Repositories\CategoryRepository'
 		);
+
+		$this->app->bind(
+			'App\Dave\Repositories\IUserRepository',
+			'App\Dave\Repositories\UserRepository'
+		);
+
+		$this->app->bind(
+			'App\Dave\Repositories\IProjectRepository',
+			'App\Dave\Repositories\ProjectRepository'
+		);
 	}
 
 }

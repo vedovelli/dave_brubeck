@@ -12,12 +12,11 @@ class CreateCategoriesProjectsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('davbr_categories_projects', function(Blueprint $table)
+		Schema::create('davbr_category_project', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('category_id');
 			$table->integer('project_id');
-			$table->timestamps();
 		});
 	}
 
@@ -28,7 +27,7 @@ class CreateCategoriesProjectsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('davbr_categories_projects');
+		Schema::drop('davbr_category_project');
 	}
 
 }

@@ -29,6 +29,78 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/Dave\/Repositories\/CategoryRepository.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Repositories\/CategoryRepository.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Repositories\/ICategoryRepository.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Repositories\/ICategoryRepository.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Repositories\/IProjectRepository.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Repositories\/IProjectRepository.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Repositories\/IUserRepository.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Repositories\/IUserRepository.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Repositories\/ProjectRepository.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Repositories\/ProjectRepository.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Repositories\/UserRepository.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Repositories\/UserRepository.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Services\/Validators\/Category.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Services\/Validators\/Category.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Dave\/Services\/Validators\/Validator.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Dave\/Services\/Validators\/Validator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/Events\/Event.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -65,6 +137,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/Http\/Controllers\/CategoryController.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Http\/Controllers\/CategoryController.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/Http\/Controllers\/Controller.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -74,20 +155,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/Http\/Controllers\/HomeController.php": {
+	"\/app\/Http\/Controllers\/DashboardController.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/Http\/Controllers\/HomeController.php",
+		"inputAbbreviatedPath": "\/app\/Http\/Controllers\/DashboardController.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/Http\/Controllers\/WelcomeController.php": {
+	"\/app\/Http\/Controllers\/ProjectController.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/Http\/Controllers\/WelcomeController.php",
+		"inputAbbreviatedPath": "\/app\/Http\/Controllers\/ProjectController.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Http\/Controllers\/UserController.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Http\/Controllers\/UserController.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -151,6 +241,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/Models\/Category.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/Models\/Project.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/Models\/Project.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -389,20 +488,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/database\/migrations\/2015_03_23_182451_createProjectsUsersTable.php": {
+	"\/database\/migrations\/2015_03_23_182451_createProjectUserTable.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/database\/migrations\/2015_03_23_182451_createProjectsUsersTable.php",
+		"inputAbbreviatedPath": "\/database\/migrations\/2015_03_23_182451_createProjectUserTable.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/database\/migrations\/2015_03_23_182505_createCategoriesProjectsTable.php": {
+	"\/database\/migrations\/2015_03_23_182505_createCategoryProjectTable.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/database\/migrations\/2015_03_23_182505_createCategoriesProjectsTable.php",
+		"inputAbbreviatedPath": "\/database\/migrations\/2015_03_23_182505_createCategoryProjectTable.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -426,6 +525,754 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/animate.css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/animate.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/animate.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/animate.css\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/animate.css\/source\/_base.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/_base.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/bounce.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/bounce.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/flash.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/flash.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/pulse.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/pulse.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/rubberBand.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/rubberBand.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/shake.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/shake.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/swing.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/swing.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/tada.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/tada.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/attention_seekers\/wobble.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/attention_seekers\/wobble.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceIn.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceIn.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOut.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOut.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeIn.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeIn.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDownBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDownBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeftBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeftBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRightBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRightBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUpBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUpBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOut.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOut.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDownBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDownBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeftBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeftBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRightBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRightBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUpBig.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUpBig.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/flippers\/flip.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/flippers\/flip.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/flippers\/flipInX.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/flippers\/flipInX.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/flippers\/flipInY.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/flippers\/flipInY.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/flippers\/flipOutX.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/flippers\/flipOutX.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/flippers\/flipOutY.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/flippers\/flipOutY.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedIn.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedIn.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedOut.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedOut.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateIn.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateIn.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOut.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOut.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_entrances\/slideInUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/sliding_exits\/slideOutUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/specials\/hinge.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/specials\/hinge.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/specials\/rollIn.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/specials\/rollIn.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/specials\/rollOut.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/specials\/rollOut.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomIn.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomIn.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOut.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOut.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutDown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutDown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutLeft.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutLeft.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutRight.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutRight.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutUp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutUp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/bootstrap-select2\/LICENSE.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/bootstrap-select2\/LICENSE.md",
+		"outputAbbreviatedPath": "\/public\/bower_components\/bootstrap-select2\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/bootstrap-select2\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/bootstrap-select2\/README.md",
+		"outputAbbreviatedPath": "\/public\/bower_components\/bootstrap-select2\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/bootstrap-select2\/select2-bootstrap.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/bootstrap-select2\/select2-bootstrap.less",
+		"outputAbbreviatedPath": "\/public\/bower_components\/css\/select2-bootstrap.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
 		},
 	"\/public\/bower_components\/bootstrap-social\/bootstrap-social.css": {
 		"fileType": 16,
@@ -6920,6 +7767,1073 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.3.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.3.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.4.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.4.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.5.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/3.4.5.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/footer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/head.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/navbar.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/navbar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/select2-select.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_includes\/select2-select.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_layouts\/default.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_layouts\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_layouts\/minimal.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_layouts\/minimal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.3.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.3.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.4.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.4.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.5.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/3.4.5.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/css\/gh-pages.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/css\/gh-pages.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/css\/select2-bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/css\/select2-bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/js\/min\/respond.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/master.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/_site\/master.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/css\/gh-pages.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/css\/gh-pages.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/css\/select2-bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/css\/select2-bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/js\/min\/respond.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2-bootstrap\/_jekyll\/master.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/_jekyll\/master.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/compass\/stylesheets\/select2-bootstrap.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/compass\/stylesheets\/select2-bootstrap.scss",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/compass\/css\/select2-bootstrap.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/3.3.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/3.3.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/3.4.1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/3.4.1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/3.4.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/3.4.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/3.4.3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/3.4.3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/3.4.4.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/3.4.4.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/3.4.5.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/3.4.5.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/css\/gh-pages.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/css\/gh-pages.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/css\/select2-bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/css\/select2-bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/js\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/js\/respond.min.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/js\/min\/respond.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2-bootstrap\/docs\/master.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/docs\/master.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2-bootstrap\/lib\/build.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/lib\/build.scss",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/css\/build.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/lib\/select2-bootstrap.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/lib\/select2-bootstrap.scss",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/css\/select2-bootstrap.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/README.md",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/select2-bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/select2-bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2-bootstrap\/test\/less_test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/test\/less_test.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/test\/min\/less_test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2-bootstrap\/test\/scss_test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/test\/scss_test.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2-bootstrap\/test\/min\/scss_test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/CONTRIBUTING.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/CONTRIBUTING.md",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/CONTRIBUTING.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/README.md",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2\/select2-bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2-bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2\/select2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/select2\/select2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2.min.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 613,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2.png",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/select2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ar.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_az.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_az.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_az-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_bg.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_bg.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_bg-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ca.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ca.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ca-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_cs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_cs.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_cs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_da.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_da.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_da-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_de.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_de.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_de-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_el.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_el.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_el-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_es.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_es.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_es-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_et.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_et.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_et-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_eu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_eu.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_eu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_fa.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_fa.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_fa-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_fi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_fi.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_fi-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_fr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_fr.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_fr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_gl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_gl.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_gl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_he.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_he.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_he-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_hr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_hr.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_hr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_hu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_hu.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_hu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_id.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_id.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_id-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_is.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_is.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_is-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_it.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_it.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_it-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ja.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ja.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ja-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ka.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ka.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ka-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ko.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ko.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ko-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_lt.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_lt.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_lt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_lv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_lv.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_lv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_mk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_mk.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_mk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ms.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ms.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ms-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_nb.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_nb.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_nb-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_nl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_nl.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_nl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_pl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_pl.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_pl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_pt-BR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_pt-BR.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_pt-BR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_pt-PT.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_pt-PT.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_pt-PT-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ro.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ro.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ro-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_rs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_rs.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_rs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ru.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ru.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ru-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_sk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_sk.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_sk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_sv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_sv.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_sv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_th.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_th.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_th-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_tr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_tr.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_tr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_ug-CN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_ug-CN.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_ug-CN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_uk.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_uk.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_uk-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_vi.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_vi.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_vi-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_zh-CN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_zh-CN.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_zh-CN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2_locale_zh-TW.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2_locale_zh-TW.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/min\/select2_locale_zh-TW-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/select2\/select2x2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 845,
+		"inputAbbreviatedPath": "\/public\/bower_components\/select2\/select2x2.png",
+		"outputAbbreviatedPath": "\/public\/bower_components\/select2\/select2x2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -6944,6 +8858,61 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/public\/js\/app.js",
 		"outputAbbreviatedPath": "\/public\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/category\/category.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/category\/category.js",
+		"outputAbbreviatedPath": "\/public\/js\/category\/min\/category-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/dashboard\/dashboard.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/dashboard\/dashboard.js",
+		"outputAbbreviatedPath": "\/public\/js\/dashboard\/min\/dashboard-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/project\/min\/project-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/project\/min\/project-min.js",
+		"outputAbbreviatedPath": "\/public\/js\/project\/min\/min\/project-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/project\/project.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/project\/project.js",
+		"outputAbbreviatedPath": "\/public\/js\/project\/min\/project-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/js\/search.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/search.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/search-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8408,11 +10377,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/resources\/views\/app.blade.php": {
+	"\/resources\/lang\/pt-br\/validation.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/resources\/views\/app.blade.php",
+		"inputAbbreviatedPath": "\/resources\/lang\/pt-br\/validation.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8453,6 +10422,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/resources\/views\/category\/index.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/category\/index.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/dashboard\/index.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/dashboard\/index.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/resources\/views\/emails\/password.blade.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8480,20 +10467,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/resources\/views\/main.blade.php": {
+	"\/resources\/views\/layout\/clean.blade.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/resources\/views\/main.blade.php",
+		"inputAbbreviatedPath": "\/resources\/views\/layout\/clean.blade.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/resources\/views\/welcome.blade.php": {
+	"\/resources\/views\/layout\/partials\/sidemenu.blade.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/resources\/views\/welcome.blade.php",
+		"inputAbbreviatedPath": "\/resources\/views\/layout\/partials\/sidemenu.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/layout\/partials\/topmenu.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/layout\/partials\/topmenu.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/layout\/sbadmin.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/layout\/sbadmin.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/partials\/search.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/partials\/search.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/projects\/form.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/projects\/form.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/projects\/index.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/projects\/index.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/user\/edit.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/user\/edit.blade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/resources\/views\/user\/profile.blade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/views\/user\/profile.blade.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9079,6 +11129,292 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/doctrine\/instantiator\/tests\/DoctrineTest\/InstantiatorTestAsset\/XMLReaderAsset.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/LICENSE.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/LICENSE.md",
+		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/ExceptionStrategy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/ExceptionStrategy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/module.config.example.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/module.config.example.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/Module.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/Module.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/RouteNotFoundStrategy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/deprecated\/Zend\/RouteNotFoundStrategy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/ErrorException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/ErrorException.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Formatter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Formatter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Frame.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Frame.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/FrameCollection.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/FrameCollection.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Inspector.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Exception\/Inspector.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/CallbackHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/CallbackHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/Handler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/Handler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/HandlerInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/HandlerInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/JsonResponseHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/JsonResponseHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PlainTextHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PlainTextHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PrettyPageHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/PrettyPageHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/SoapResponseHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/SoapResponseHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/XmlResponseHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Handler\/XmlResponseHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Provider\/Phalcon\/WhoopsServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Provider\/Phalcon\/WhoopsServiceProvider.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Provider\/Silex\/WhoopsServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Provider\/Silex\/WhoopsServiceProvider.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/css\/whoops.base.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/whoops.base.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/whoops.base.js",
+		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/min\/whoops.base-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/zepto.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/zepto.min.js",
+		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/js\/min\/zepto.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/env_details.html.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/env_details.html.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_code.html.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_code.html.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_list.html.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/frame_list.html.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/header.html.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/header.html.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/layout.html.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Resources\/views\/layout.html.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Run.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Run.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Util\/Misc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Util\/Misc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Util\/TemplateHelper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Util\/TemplateHelper.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -12145,6 +14481,60 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/fzaninotto\/faker\/test\/test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/illuminate\/html\/FormBuilder.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/illuminate\/html\/FormBuilder.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/illuminate\/html\/FormFacade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/illuminate\/html\/FormFacade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/illuminate\/html\/helpers.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/illuminate\/html\/helpers.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/illuminate\/html\/HtmlBuilder.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/illuminate\/html\/HtmlBuilder.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/illuminate\/html\/HtmlFacade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/illuminate\/html\/HtmlFacade.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/illuminate\/html\/HtmlServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/illuminate\/html\/HtmlServiceProvider.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -18548,11 +20938,389 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/CarbonInterval.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/CarbonInterval.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ar.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ar.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/bg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/bg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ca.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ca.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/cs.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/cs.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/da.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/da.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/de.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/de.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/el.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/el.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/en.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/en.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/eo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/eo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/es.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/es.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/fi.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/fi.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/fr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/fr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/hr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/hr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/hu.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/hu.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/id.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/id.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/it.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/it.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ja.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ja.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ko.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ko.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/lt.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/lt.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/nl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/nl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/no.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/no.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/pl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/pl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/pt.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/pt.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/pt_BR.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/pt_BR.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ro.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ro.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ru.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/ru.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sk.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sk.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sv.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/sv.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/th.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/th.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/tr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/tr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/uk.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/uk.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/vi.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/vi.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/zh-TW.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/zh-TW.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/zh.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/src\/Carbon\/Lang\/zh.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/nesbot\/carbon\/tests\/AddTest.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/AddTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalAddTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalAddTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalConstructTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalConstructTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalForHumansTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalForHumansTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalGettersTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalGettersTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalSettersTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/CarbonIntervalSettersTest.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -18692,6 +21460,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/nesbot\/carbon\/tests\/LocalizationTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/LocalizationTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/nesbot\/carbon\/tests\/NowAndOtherStaticHelpersTest.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -18761,2061 +21538,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/nesbot\/carbon\/tests\/TestingAidsTest.php",
 		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/bin\/php-parse.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/bin\/php-parse.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/CHANGELOG.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/CHANGELOG.md",
-		"outputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/CHANGELOG.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/grammar\/analyze.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/grammar\/analyze.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/grammar\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/grammar\/README.md",
-		"outputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/grammar\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/grammar\/rebuildParser.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/grammar\/rebuildParser.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/bootstrap.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/bootstrap.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Autoloader.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Autoloader.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Class_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Class_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Declaration.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Declaration.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Function_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Function_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/FunctionLike.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/FunctionLike.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Interface_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Interface_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Method.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Method.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Namespace_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Namespace_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Param.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Param.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Property.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Property.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Trait_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Trait_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Use_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Builder\/Use_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/BuilderAbstract.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/BuilderAbstract.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/BuilderFactory.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/BuilderFactory.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Comment.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Comment.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Comment\/Doc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Comment\/Doc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Error.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Error.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Lexer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Lexer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Lexer\/Emulative.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Lexer\/Emulative.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Arg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Arg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Const_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Const_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Array_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Array_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ArrayDimFetch.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ArrayDimFetch.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ArrayItem.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ArrayItem.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Assign.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Assign.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/BitwiseAnd.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/BitwiseAnd.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/BitwiseOr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/BitwiseOr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/BitwiseXor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/BitwiseXor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Concat.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Concat.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Div.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Div.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Minus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Minus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Mod.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Mod.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Mul.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Mul.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Plus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Plus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Pow.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/Pow.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/ShiftLeft.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/ShiftLeft.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/ShiftRight.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignOp\/ShiftRight.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignRef.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/AssignRef.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BitwiseAnd.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BitwiseAnd.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BitwiseOr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BitwiseOr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BitwiseXor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BitwiseXor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BooleanAnd.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BooleanAnd.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BooleanOr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/BooleanOr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Coalesce.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Coalesce.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Concat.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Concat.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Div.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Div.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Equal.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Equal.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Greater.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Greater.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/GreaterOrEqual.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/GreaterOrEqual.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Identical.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Identical.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/LogicalAnd.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/LogicalAnd.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/LogicalOr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/LogicalOr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/LogicalXor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/LogicalXor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Minus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Minus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Mod.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Mod.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Mul.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Mul.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/NotEqual.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/NotEqual.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/NotIdentical.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/NotIdentical.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Plus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Plus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Pow.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Pow.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/ShiftLeft.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/ShiftLeft.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/ShiftRight.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/ShiftRight.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Smaller.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Smaller.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/SmallerOrEqual.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/SmallerOrEqual.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Spaceship.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BinaryOp\/Spaceship.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BitwiseNot.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BitwiseNot.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BooleanNot.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/BooleanNot.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Array_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Array_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Bool_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Bool_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Double.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Double.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Int_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Int_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Object_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Object_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/String_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/String_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Unset_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Cast\/Unset_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ClassConstFetch.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ClassConstFetch.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Clone_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Clone_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Closure.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Closure.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ClosureUse.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ClosureUse.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ConstFetch.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ConstFetch.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Empty_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Empty_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ErrorSuppress.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ErrorSuppress.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Eval_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Eval_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Exit_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Exit_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/FuncCall.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/FuncCall.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Include_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Include_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Instanceof_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Instanceof_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Isset_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Isset_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/List_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/List_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/MethodCall.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/MethodCall.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/New_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/New_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PostDec.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PostDec.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PostInc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PostInc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PreDec.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PreDec.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PreInc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PreInc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Print_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Print_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PropertyFetch.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/PropertyFetch.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ShellExec.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/ShellExec.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/StaticCall.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/StaticCall.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/StaticPropertyFetch.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/StaticPropertyFetch.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Ternary.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Ternary.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/UnaryMinus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/UnaryMinus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/UnaryPlus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/UnaryPlus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Variable.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Variable.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Yield_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Expr\/Yield_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Name.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Name.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Name\/FullyQualified.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Name\/FullyQualified.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Name\/Relative.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Name\/Relative.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Param.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Param.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/DNumber.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/DNumber.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/Encapsed.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/Encapsed.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/LNumber.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/LNumber.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Class_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Class_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Dir.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Dir.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/File.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/File.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Function_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Function_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Line.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Line.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Method.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Method.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Namespace_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Namespace_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Trait_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/MagicConst\/Trait_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/String_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Scalar\/String_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Break_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Break_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Case_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Case_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Catch_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Catch_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Class_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Class_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ClassConst.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ClassConst.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ClassLike.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ClassLike.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ClassMethod.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ClassMethod.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Const_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Const_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Continue_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Continue_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Declare_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Declare_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/DeclareDeclare.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/DeclareDeclare.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Do_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Do_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Echo_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Echo_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Else_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Else_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ElseIf_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/ElseIf_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/For_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/For_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Foreach_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Foreach_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Function_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Function_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Global_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Global_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Goto_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Goto_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/HaltCompiler.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/HaltCompiler.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/If_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/If_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/InlineHTML.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/InlineHTML.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Interface_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Interface_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Label.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Label.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Namespace_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Namespace_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Property.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Property.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/PropertyProperty.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/PropertyProperty.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Return_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Return_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Static_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Static_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/StaticVar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/StaticVar.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Switch_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Switch_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Throw_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Throw_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Trait_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Trait_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUse.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUse.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUseAdaptation.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUseAdaptation.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUseAdaptation\/Alias.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUseAdaptation\/Alias.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUseAdaptation\/Precedence.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TraitUseAdaptation\/Precedence.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TryCatch.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/TryCatch.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Unset_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Unset_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Use_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/Use_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/UseUse.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/UseUse.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/While_.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Node\/Stmt\/While_.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeAbstract.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeAbstract.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeDumper.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeDumper.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeTraverser.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeTraverser.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeTraverserInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeTraverserInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeVisitor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeVisitor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeVisitor\/NameResolver.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeVisitor\/NameResolver.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeVisitorAbstract.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/NodeVisitorAbstract.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Parser.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Parser.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/ParserAbstract.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/ParserAbstract.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/PrettyPrinter\/Standard.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/PrettyPrinter\/Standard.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/PrettyPrinterAbstract.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/PrettyPrinterAbstract.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Serializer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Serializer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Serializer\/XML.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Serializer\/XML.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Unserializer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Unserializer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Unserializer\/XML.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/lib\/PhpParser\/Unserializer\/XML.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/README.md",
-		"outputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/AutoloaderTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/AutoloaderTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/ClassTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/ClassTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/FunctionTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/FunctionTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/InterfaceTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/InterfaceTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/MethodTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/MethodTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/NamespaceTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/NamespaceTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/ParamTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/ParamTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/PropertyTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/PropertyTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/TraitTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/TraitTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/UseTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Builder\/UseTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/BuilderFactoryTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/BuilderFactoryTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/CodeTestAbstract.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/CodeTestAbstract.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/CommentTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/CommentTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/ErrorTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/ErrorTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Lexer\/EmulativeTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Lexer\/EmulativeTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/LexerTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/LexerTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/NameTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/NameTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Scalar\/MagicConstTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Scalar\/MagicConstTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Scalar\/StringTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Scalar\/StringTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/ClassMethodTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/ClassMethodTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/ClassTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/ClassTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/InterfaceTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/InterfaceTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/PropertyTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Node\/Stmt\/PropertyTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeAbstractTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeAbstractTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeDumperTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeDumperTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeTraverserTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeTraverserTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeVisitor\/NameResolverTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/NodeVisitor\/NameResolverTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/ParserTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/ParserTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/PrettyPrinterTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/PrettyPrinterTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Serializer\/XMLTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Serializer\/XMLTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test\/PhpParser\/Unserializer\/XMLTest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test\/PhpParser\/Unserializer\/XMLTest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/test_old\/run.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/test_old\/run.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/nikic\/php-parser\/UPGRADE-1.0.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/UPGRADE-1.0.md",
-		"outputAbbreviatedPath": "\/vendor\/nikic\/php-parser\/UPGRADE-1.0.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
