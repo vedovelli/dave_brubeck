@@ -3,6 +3,7 @@
 Route::group(['prefix' => 'api', 'middleware' => 'auth.basic'], function()
 {
   Route::get('categorias', ['uses' => 'CategoryController@index']);
+  Route::get('usuarios', ['uses' => 'UserController@index']);
 });
 
 Route::group(['middleware' => 'auth'], function()
@@ -52,7 +53,13 @@ Route::group(['middleware' => 'auth'], function()
   */
   Route::group(['prefix' => 'usuarios'], function()
   {
-    Route::get('{id}', ['as' => 'user.show', 'uses' => 'ProjectController@index']);
+    Route::get('', ['as' => 'user.index', 'uses' => 'UserController@index']);
+    Route::get('{id}', ['as' => 'user.show', 'uses' => 'UserController@show']);
+    Route::post('store', ['as' => 'user.store', 'uses' => 'UserController@store']);
+    Route::get('{id}/editar', ['as' => 'user.edit', 'uses' => 'UserController@edit']);
+    Route::post('{id}/atualizar', ['as' => 'user.update', 'uses' => 'UserController@update']);
+    Route::get('{id}/remover', ['as' => 'user.destroy', 'uses' => 'UserController@destroy']);
+    Route::get('{id}/projects', ['as' => 'user.projects', 'uses' => 'UserController@projects']);
   });
 });
 

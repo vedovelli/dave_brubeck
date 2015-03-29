@@ -1,12 +1,38 @@
 /*
 * Dave Brubeck CSS
 */
+
+.dave-texto-apagado
+{
+    color: #ccc;
+}
 .dave-busca-rapida
 {
     width: 800px;
     margin: 100px auto;
 }
 
+.dave-login
+{
+    width: 600px;
+    margin: 50px auto;
+}
+
+.dave-side
+{
+    position: absolute;
+    left: -40px;
+    bottom: -20px;
+    opacity: .5;
+}
+
+.dave-side-clique
+{
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+    opacity: 0;
+}
 
 /*!
  * Start Bootstrap - SB Admin 2 Bootstrap Admin Theme (http://startbootstrap.com)

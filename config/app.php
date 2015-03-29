@@ -51,7 +51,7 @@ return [
 	| to any of the locales which will be supported by the application.
 	|
 	*/
-	'locale' => 'pt-BR',
+	'locale' => 'es',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -145,6 +145,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 
+		'Barryvdh\Debugbar\ServiceProvider',
+
 	],
 
 	/*
@@ -195,6 +197,7 @@ return [
 		'Form' 			=> 'Illuminate\Html\FormFacade',
 		'Html' 			=> 'Illuminate\Html\HtmlFacade',
 		'Carbon' 		=> 'Carbon\Carbon',
+		'Debugbar'  => 'Barryvdh\Debugbar\Facade',
 
 	],
 

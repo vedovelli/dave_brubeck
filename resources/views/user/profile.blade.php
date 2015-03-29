@@ -7,6 +7,14 @@
     Perfil de Usuário
   </h1>
 
+  {{-- Alert --}}
+  @if(Session::has('success'))
+  <div class="alert alert-success alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Sucesso!</strong> {{Session::get('success')}}
+  </div>
+  @endif
+
   <table class="table table-bordered table-striped">
     <tbody>
       <tr>
@@ -17,18 +25,34 @@
       <tr>
         <td><strong>Nome</strong></td>
         <td>{{$user->name}}</td>
-      </tr>
+        </tr>
       <tr>
         <td><strong>E-mail</strong></td>
         <td>{{$user->email}}</td>
       </tr>
       <tr>
         <td><strong>Criado em</strong></td>
-        <td>{{$user->created_at}}</td>
+        <td>{{Carbon::parse($user->created_at)->formatLocalized('%A, %d %B %Y')}}</td>
       </tr>
       <tr>
         <td width="1%" nowrap><strong>Atualizado em</strong></td>
-        <td>{{$user->updated_at}}</td>
+        <td>{{Carbon::parse($user->updated_at)->formatLocalized('%A, %d %B %Y')}}</td>
+      </tr>
+      <tr>
+        <td width="1%" nowrap><strong>Projetos</strong></td>
+        <td>
+          @if(count($user->projects) > 0)
+          <ul>
+            @foreach($user->projects as $project)
+            <li>
+              <a href="{!! route('project.show', ['id' => $project->id]) !!}">{!! $project->name !!}</a>
+            </li>
+            @endforeach
+          </ul>
+          @else
+          Nenhum
+          @endif
+        </td>
       </tr>
       <tr>
         <td colspan="2">

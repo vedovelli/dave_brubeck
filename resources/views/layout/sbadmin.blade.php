@@ -38,6 +38,14 @@
 
     <div id="wrapper">
 
+        <a href="http://grooveshark.com/#!/album/Time+Out/132960">
+            <img src="/img/dave-brubeck-side.png" class="dave-side">
+        </a>
+
+        <a href="http://grooveshark.com/#!/album/Time+Out/132960" class="dave-side-clique">
+            <strong class="text-danger">Ouça Dave!</strong>
+        </a>
+
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">

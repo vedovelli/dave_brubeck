@@ -7,6 +7,15 @@
     */
     $('[data-toggle="tooltip"]').tooltip();
 
+    $('.dave-side').on('mouseover', function()
+    {
+        $(this).animate({opacity: 1});
+        $('.dave-side-clique').animate({opacity: 1});
+    }).on('mouseout', function()
+    {
+        $(this).animate({opacity: 0.5});
+        $('.dave-side-clique').animate({opacity: 0});
+    });
 
     /**
     * SB Admin scripts
