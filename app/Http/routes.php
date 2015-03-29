@@ -34,6 +34,7 @@ Route::group(['middleware' => 'auth'], function()
     Route::get('', ['as' => 'profile.index', 'uses' => 'UserController@profile']);
     Route::get('editar', ['as' => 'profile.edit', 'uses' => 'UserController@edit']);
     Route::post('atualizar', ['as' => 'profile.update', 'uses' => 'UserController@update']);
+    Route::get('senha', ['as' => 'profile.password', 'uses' => 'UserController@password']);
   });
 
   /**

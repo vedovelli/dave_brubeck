@@ -28,11 +28,11 @@
       </tr>
       <tr>
         <td><strong>Criado em</strong></td>
-        <td>{{$user->created_at}}</td>
+        <td>{{Carbon::parse($user->created_at)->formatLocalized('%A, %d %B %Y')}}</td>
       </tr>
       <tr>
         <td width="1%" nowrap><strong>Atualizado em</strong></td>
-        <td>{{$user->updated_at}}</td>
+        <td>{{Carbon::parse($user->updated_at)->formatLocalized('%A, %d %B %Y')}}</td>
       </tr>
       <tr>
         <td colspan="2">

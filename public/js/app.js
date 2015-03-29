@@ -9,11 +9,11 @@
 
     $('.dave-side').on('mouseover', function()
     {
-        $(this).animate({opacity: 1});
+        $(this).animate({opacity: 1, left: 0, bottom: 0});
         $('.dave-side-clique').animate({opacity: 1});
     }).on('mouseout', function()
     {
-        $(this).animate({opacity: 0.5});
+        $(this).animate({opacity: 0.5, left: -40, bottom: -20});
         $('.dave-side-clique').animate({opacity: 0});
     });
 

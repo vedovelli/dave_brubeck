@@ -198,6 +198,10 @@
             <img src="http://www.gravatar.com/avatar/{{md5(Auth::user()->email)}}?s=20">
             Perfil do Usuário</a>
         </li>
+        <li><a href="{{route('profile.password')}}">
+            <i class="fa fa-lock"></i>
+            Trocar senha</a>
+        </li>
         {{-- <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
         </li> --}}
         <li class="divider"></li>

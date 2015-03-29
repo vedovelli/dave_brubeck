@@ -4,14 +4,20 @@ use \Auth as Auth;
 use \Request as Request;
 
 use \App\Dave\Repositories\IUserRepository as Repository;
+use \App\Dave\Services\Validators\UserCreating as ValidatorCreating;
+use \App\Dave\Services\Validators\UserUpdating as ValidatorUpdating;
 
 class UserController extends Controller {
 
   protected $repository;
+  protected $validatorCreating;
+  protected $validatorUpdating;
 
-  function __construct(Repository $repository)
+  function __construct(Repository $repository, ValidatorCreating $validatorCreating, ValidatorUpdating $validatorUpdating)
   {
     $this->repository = $repository;
+    $this->validatorCreating = $validatorCreating;
+    $this->validatorUpdating = $validatorUpdating;
   }
 
 	public function profile()
@@ -47,6 +53,11 @@ class UserController extends Controller {
 
   public function update($id = null)
   {
+
+    if(!$this->validatorUpdating->passes())
+    {
+      return redirect()->back()->withError($this->validatorUpdating->getErrors());
+    }
 
     if(!is_null($id))
     {
@@ -99,6 +110,11 @@ class UserController extends Controller {
   {
     $request = Request::all();
 
+    if(!$this->validatorCreating->passes())
+    {
+      return redirect()->back()->withError($this->validatorCreating->getErrors());
+    }
+
     $this->repository->store($request);
 
     return redirect()->back()->with('success', 'Usuário criado com sucesso!');
@@ -110,13 +126,20 @@ class UserController extends Controller {
 
     $page = 'page=' . Request::get('page', 1);
 
-    return redirect()->route('category.index', $page)->with('destroy', 'Usuário removido com sucesso!');
+    return redirect()->route('user.index', $page)->with('destroy', 'Usuário removido com sucesso!');
   }
 
   public function projects($id)
   {
     $projects = $this->repository->show($id)->projects;
     return $projects;
+  }
+
+  public function password()
+  {
+    $user = $this->repository->show(Auth::user()->id);
+
+    return view('user.password')->with(compact('user'));
   }
 
 }
