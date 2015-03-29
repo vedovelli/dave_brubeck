@@ -60,7 +60,7 @@ Route::group(['middleware' => 'auth'], function()
     Route::get('{id}/editar', ['as' => 'user.edit', 'uses' => 'UserController@edit']);
     Route::post('{id}/atualizar', ['as' => 'user.update', 'uses' => 'UserController@update']);
     Route::get('{id}/remover', ['as' => 'user.destroy', 'uses' => 'UserController@destroy']);
-    Route::get('{id}/projects', ['as' => 'user.projects', 'uses' => 'UserController@projects']);
+    Route::get('{id}/projetos', ['as' => 'user.projects', 'uses' => 'UserController@projects']);
   });
 });
 

@@ -20,10 +20,32 @@ class UserController extends Controller {
     $this->validatorUpdating = $validatorUpdating;
   }
 
-	public function profile()
-	{
-		return view('user.profile')->with('user', Auth::user());
-	}
+  public function index()
+  {
+    $search = Request::get('search');
+
+    if(Request::ajax())
+    {
+      $paginate = false;
+
+      $users = $this->repository->users($search, $paginate);
+
+      return Response::json($users, 200);
+    }
+
+    $users = $this->repository->users($search);
+
+    $selectedUser = null;
+
+    return view('user.index')->with(compact('search', 'users', 'selectedUser'));
+  }
+
+  public function show($id)
+  {
+    $user = $this->repository->show($id);
+
+    return view('user.profile')->with(compact('user'));
+  }
 
   public function edit($id = null)
   {
@@ -79,33 +101,6 @@ class UserController extends Controller {
     }
   }
 
-  public function index()
-  {
-    $search = Request::get('search');
-
-    if(Request::ajax())
-    {
-      $paginate = false;
-
-      $users = $this->repository->users($search, $paginate);
-
-      return Response::json($users, 200);
-    }
-
-    $users = $this->repository->users($search);
-
-    $selectedUser = null;
-
-    return view('user.index')->with(compact('search', 'users', 'selectedUser'));
-  }
-
-  public function show($id)
-  {
-    $user = $this->repository->show($id);
-
-    return view('user.profile')->with(compact('user'));
-  }
-
   public function store()
   {
     $request = Request::all();
@@ -129,10 +124,19 @@ class UserController extends Controller {
     return redirect()->route('user.index', $page)->with('destroy', 'Usuário removido com sucesso!');
   }
 
+  public function profile()
+  {
+    return view('user.profile')->with('user', Auth::user());
+  }
+
   public function projects($id)
   {
-    $projects = $this->repository->show($id)->projects;
-    return $projects;
+    $user = $this->repository->show($id);
+
+    $projects = $user->projects;
+
+    return view('user.projects')->with(compact('user', 'projects'));
+
   }
 
   public function password()
