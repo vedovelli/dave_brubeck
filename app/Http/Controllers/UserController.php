@@ -6,18 +6,25 @@ use \Request as Request;
 use \App\Dave\Repositories\IUserRepository as Repository;
 use \App\Dave\Services\Validators\UserCreating as ValidatorCreating;
 use \App\Dave\Services\Validators\UserUpdating as ValidatorUpdating;
+use \App\Dave\Services\Validators\UserPassword as ValidatorPassword;
 
 class UserController extends Controller {
 
   protected $repository;
   protected $validatorCreating;
   protected $validatorUpdating;
+  protected $validatorPassword;
 
-  function __construct(Repository $repository, ValidatorCreating $validatorCreating, ValidatorUpdating $validatorUpdating)
+  function __construct(
+    Repository $repository,
+    ValidatorCreating $validatorCreating,
+    ValidatorPassword $validatorPassword,
+    ValidatorUpdating $validatorUpdating)
   {
     $this->repository = $repository;
     $this->validatorCreating = $validatorCreating;
     $this->validatorUpdating = $validatorUpdating;
+    $this->validatorPassword = $validatorPassword;
   }
 
   public function index()
@@ -81,12 +88,14 @@ class UserController extends Controller {
       return redirect()->back()->withError($this->validatorUpdating->getErrors());
     }
 
+    $request = Request::all();
+
     if(!is_null($id))
     {
       /**
       * Atende ao gerenciamento de usuários
       */
-      $this->repository->update($id, Request::all());
+      $this->repository->update($id, $request);
 
       return redirect()->back()->with('success', 'Usuário atualizado com sucesso!');
 
@@ -95,9 +104,9 @@ class UserController extends Controller {
       /**
       * Atende ao usuário logado
       */
-      $this->repository->update(Auth::user()->id, Request::all());
+      $this->repository->update(Auth::user()->id, $request);
 
-      return redirect()->route('profile.index')->with('success', 'Seu perfil foi atualizado com sucesso!');;
+      return redirect()->route('profile.index')->with('success', 'Seu perfil foi atualizado com sucesso!');
     }
   }
 
@@ -136,7 +145,6 @@ class UserController extends Controller {
     $projects = $user->projects;
 
     return view('user.projects')->with(compact('user', 'projects'));
-
   }
 
   public function password()
@@ -144,6 +152,18 @@ class UserController extends Controller {
     $user = $this->repository->show(Auth::user()->id);
 
     return view('user.password')->with(compact('user'));
+  }
+
+  public function savePassword()
+  {
+    if(!$this->validatorPassword->passes())
+    {
+      return redirect()->back()->withError($this->validatorPassword->getErrors());
+    }
+
+    $this->repository->update(Auth::user()->id, Request::all());
+
+    return redirect()->route('profile.password')->with('success', 'Senha alterada com sucesso!');
   }
 
 }

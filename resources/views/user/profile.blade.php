@@ -56,7 +56,14 @@
       </tr>
       <tr>
         <td colspan="2">
-          <a href="{{route('profile.edit')}}" class="btn btn-primary">editar</a>
+          <a href="{{route('profile.edit')}}" class="btn btn-primary">
+            <i class="fa fa-pencil"></i>
+            editar
+          </a>
+          <a href="{{route('profile.password')}}" class="btn btn-danger">
+            <i class="fa fa-lock"></i>
+            trocar senha
+          </a>
         </td>
       </tr>
     </tbody>
