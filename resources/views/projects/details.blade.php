@@ -2,6 +2,10 @@
 
 @section('content')
 
+{!! Form::open(['url' => route('project.section', ['id' => $project->id])]) !!}
+@include('partials.modal', $modalConfig)
+{!! Form::close() !!}
+
 <p>
   <ol class="breadcrumb">
     <li><a href="{!! route('dashboard.index') !!}">Dashboard</a></li>
@@ -15,9 +19,17 @@
   {!! $project->name !!}
 </h1>
 
-<p class="text-right">
-  <a href="{!! route('project.edit', ['id' => $project->id]) !!}">[editar projeto]</a>
-</p>
+
+<div class="row">
+  <div class="col-md-6">
+    <a href="{!! route('project.edit', ['id' => $project->id]) !!}">[editar projeto]</a>
+  </div>
+  <div class="col-md-6 text-right">
+    <small>Última atualização: {!!Carbon::parse($project->updated_at)->diffForHumans()!!}</small>
+  </div>
+</div>
+
+<p>&nbsp;</p>
 
 <blockquote>{!! $project->description !!}</blockquote>
 
@@ -30,21 +42,30 @@
       @endforeach
     </div>
     <div class="text-right">
-      <a href="{!!route('project.index')!!}">[criar seção]</a>
+      <a href="{!!route('project.show', ['id' => $project->id, '#secao'])!!}">[criar seção]</a>
     </div>
   </div>
   <div class="col-md-3">
     <div class="well well-sm">
+      <strong>Líder: </strong>
+      <ul>
+        <li><a href="{!! route('user.projects', ['id' => $project->owner->id]) !!}">{!! $project->owner->name !!}</a></li>
+      </ul>
       <strong>Membros: </strong>
       <ul>
       @foreach($project->members as $member)
       <li>
-        <a href="#">{!! $member->name !!}</a>
+        <a href="{!! route('user.projects', ['id' => $member->id]) !!}">{!! $member->name !!}</a>
       </li>
       @endforeach
       </ul>
     </div>
   </div>
 </div>
+
+@section('scripts')
+@parent
+<script src="/js/project/project.js"></script>
+@endsection
 
 @endsection

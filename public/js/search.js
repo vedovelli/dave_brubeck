@@ -4,15 +4,11 @@
 
   $(document).ready(function(){
 
-    var $categoryForm = $('.category-form'),
-        $searchClear = $('.search-clear'),
-        $searchDo = $('.search-do'),
-        $searchField = $('.search-field');
-
-    $categoryForm.on('submit', function()
-    {
-      $(this).find('.dave-btn-salvar').button('loading');
-    });
+    var
+      $searchClear = $('.search-clear'),
+      $searchDo = $('.search-do'),
+      $searchField = $('.search-field')
+    ;
 
     $searchField.on('keyup', function(event)
     {

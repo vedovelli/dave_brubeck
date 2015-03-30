@@ -1,6 +1,7 @@
 ;(function($)
 {
   'use strict';
+
   $(document).ready(function(){
 
     var $buscaRapida = $('.dave-busca-rapida').find('input[type="text"]');

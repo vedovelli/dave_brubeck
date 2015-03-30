@@ -88,6 +88,8 @@
     </div>
     <!-- /#wrapper -->
 
+    @section('scripts')
+
     <!-- jQuery -->
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -100,7 +102,7 @@
     <!-- Custom Theme JavaScript -->
     <script src="/js/app.js"></script>
 
-    @yield('scripts')
+    @show
 
 </body>
 

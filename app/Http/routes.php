@@ -44,9 +44,11 @@ Route::group(['middleware' => 'auth'], function()
   Route::group(['prefix' => 'projetos'], function()
   {
     Route::get('', ['as' => 'project.index', 'uses' => 'ProjectController@index']);
-    Route::get('{id}/editar', ['as' => 'project.edit', 'uses' => 'ProjectController@edit']);
     Route::get('novo', ['as' => 'project.create', 'uses' => 'ProjectController@create']);
     Route::post('salvar', ['as' => 'project.store', 'uses' => 'ProjectController@store']);
+    Route::get('{id}/editar', ['as' => 'project.edit', 'uses' => 'ProjectController@edit']);
+    Route::post('{id}/atualizar', ['as' => 'project.update', 'uses' => 'ProjectController@update']);
+    Route::post('{id}/secao', ['as' => 'project.section', 'uses' => 'ProjectController@section']);
     Route::get('{id}', ['as' => 'project.show', 'uses' => 'ProjectController@show']);
   });
 

@@ -13,5 +13,6 @@
 </div>
 
 @section('scripts')
+  @parent
   <script src="/js/search.js"></script>
 @endsection

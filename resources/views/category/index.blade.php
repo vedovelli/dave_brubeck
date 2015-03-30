@@ -6,12 +6,7 @@
   Categorias
 </h1>
 
-@if(Session::has('destroy'))
-<div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <strong>Sucesso!</strong> {{Session::get('destroy')}}
-</div>
-@endif
+@include('partials.alerts')
 
 <div class="row">
   <div class="col-md-6 text-center">
@@ -50,27 +45,6 @@
   </div>
   <div class="col-md-6">
 
-    {{-- Alert --}}
-    @if(Session::has('success'))
-    <div class="alert alert-success alert-dismissible" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Sucesso!</strong> {{Session::get('success')}}
-    </div>
-    @endif
-
-    {{-- Alert --}}
-    @if(Session::has('error'))
-    <div class="alert alert-danger alert-dismissible" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Atenção!</strong>
-      <p>
-      @foreach(Session::get('error')->all() as $error)
-      &bull; {{$error}} <br>
-      @endforeach
-      </p>
-    </div>
-    @endif
-
     {{-- Form --}}
     @if($selectedCategory != null && $selectedCategory->id > 0)
     {!! Form::open(['url' => route('category.update', ['id' => $selectedCategory->id]), 'class' => 'category-form']) !!}
@@ -98,5 +72,11 @@
     {!! Form::close() !!}
   </div>
 </div>
+
+
+@section('scripts')
+  @parent
+  <script src="/js/category/category.js"></script>
+@endsection
 
 @endsection

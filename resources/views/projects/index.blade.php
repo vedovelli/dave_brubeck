@@ -21,22 +21,13 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">{!!$project->name!!}
-            <a href="{!! route('project.show', ['id' => $project->id]) !!}" class="btn btn-xs btn-success pull-right">gerenciar</a>
+            <a href="{!! route('project.show', ['id' => $project->id]) !!}" class="btn btn-xs btn-default pull-right">gerenciar</a>
           </h3>
         </div>
         <div class="panel-body">
           <h4 class="text-center"><small>líder do projeto: </small>
             <a href="{!! route('user.projects', ['id' => $project->owner->id]) !!}">{!! $project->owner->name !!}</a>
           </h4>
-          <div class="row">
-            <div class="col-md-6">
-              <small>Categorias: {!!count($project->categories)!!}</small>,
-              <small>Membros: {!!count($project->members)!!}</small>
-            </div>
-            <div class="col-md-6 text-right">
-              <small>Última atualização: {!!Carbon::parse($project->updated_at)->diffForHumans()!!}</small>
-            </div>
-          </div>
         </div> <!--.panel-body-->
       </div>
     </div>

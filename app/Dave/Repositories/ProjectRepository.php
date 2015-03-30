@@ -3,6 +3,7 @@
 use App\Models\Project;
 use App\Models\User;
 use App\Models\Category;
+use \DB as DB;
 
 class ProjectRepository implements IProjectRepository
 {
@@ -24,6 +25,19 @@ class ProjectRepository implements IProjectRepository
     * Este, sem paginação, visa atender à API
     */
     return Project::where('name', 'like', "%$search%")->get();
+  }
+
+  public function projectsUserIsMember($userid)
+  {
+    $userInProjects = DB::table('project_user')->where('user_id', '=', $userid)->get(['project_id']);
+
+    $wherein = [];
+
+    foreach ($userInProjects as $value) {
+      $wherein[] = $value->project_id;
+    }
+
+    return Project::whereIn('id', $wherein)->get();
   }
 
   public function show($id)

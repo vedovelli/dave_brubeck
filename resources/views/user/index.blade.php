@@ -6,12 +6,7 @@
   Usuários
 </h1>
 
-@if(Session::has('destroy'))
-<div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <strong>Sucesso!</strong> {{Session::get('destroy')}}
-</div>
-@endif
+@include('partials.alerts')
 
 <div class="row">
   <div class="col-md-6">
@@ -27,7 +22,6 @@
         <tr>
           <th>ID</th>
           <th>Nome Usuário</th>
-          <th>Projetos</th>
           <th>Ações</th>
         </tr>
       </thead>
@@ -36,15 +30,10 @@
         <tr>
           <td width="1%" nowrap>{{$user->id}}</td>
           <td>{{$user->name}}</td>
-          <td width="10%">
-            {!!count($user->projects)!!}
-            @if(count($user->projects) > 0)
-              <small><a href="{!! route('user.projects', ['id' => $user->id]) !!}" title="Veja os projetos do usuário">[ver]</a></small>
-            @else
-              <small class="dave-texto-apagado">[ver]</small>
-            @endif
-          </td>
-          <td width="1%" nowrap>[<a href="{{route('user.edit', ['id' => $user->id, 'page' => $users->currentPage(), 'search' => $search])}}">editar</a>] [<a href="{{route('user.destroy', ['id' => $user->id, 'page' => $users->currentPage()])}}" class="text-danger">excluir</a>]</td>
+          <td width="1%" nowrap>
+            [<a href="{!! route('user.projects', ['id' => $user->id]) !!}" title="Veja os projetos do usuário">projetos</a>] 
+            [<a href="{{route('user.edit', ['id' => $user->id, 'page' => $users->currentPage(), 'search' => $search])}}">editar</a>] 
+            [<a href="{{route('user.destroy', ['id' => $user->id, 'page' => $users->currentPage()])}}" class="text-danger">excluir</a>]</td>
         </tr>
         @endforeach
       </tbody>
@@ -58,27 +47,6 @@
 
   </div>
   <div class="col-md-6">
-
-    {{-- Alert --}}
-    @if(Session::has('success'))
-    <div class="alert alert-success alert-dismissible" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Sucesso!</strong> {{Session::get('success')}}
-    </div>
-    @endif
-
-    {{-- Alert --}}
-    @if(Session::has('error'))
-    <div class="alert alert-danger alert-dismissible" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <strong>Atenção!</strong>
-      <p>
-      @foreach(Session::get('error')->all() as $error)
-      &bull; {{$error}} <br>
-      @endforeach
-      </p>
-    </div>
-    @endif
 
     {{-- Form --}}
     @if($selectedUser != null && $selectedUser->id > 0)
@@ -128,5 +96,10 @@
     {!! Form::close() !!}
   </div>
 </div>
+
+@section('scripts')
+  @parent
+  <script src="/js/user/user.js"></script>
+@endsection
 
 @endsection

@@ -1,22 +1,38 @@
 ;(function($)
 {
   'use strict';
+
   $(document).ready(function()
   {
     var $categories = $('#categories'),
         $owner = $('#owner'),
-        $members = $('#members');
+        $members = $('#members'),
+        url = window.location;
 
-    $owner.select2({
-      placeholder: 'Selecionar um líder para o projeto'
-    });
+    if(url.hash === '#secao')
+    {
+      $('#modalSection').modal('show');
+    }
 
-    $categories.select2({
-      placeholder: 'Selecionar uma ou mais categorias'
-    });
+    if($owner.length)
+    {
+      $owner.select2({
+        placeholder: 'Selecionar um líder para o projeto'
+      });
+    }
 
-    $members.select2({
-      placeholder: 'Selecionar um ou mais membros'
-    });
+    if($categories.length)
+    {
+      $categories.select2({
+        placeholder: 'Selecionar uma ou mais categorias'
+      });
+    }
+
+    if($members.length)
+    {
+      $members.select2({
+        placeholder: 'Selecionar um ou mais membros'
+      });
+    }
   });
 })(window.jQuery);

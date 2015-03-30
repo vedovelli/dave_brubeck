@@ -4,9 +4,9 @@
 
   $(document).ready(function(){
 
-    var $categoryForm = $('.category-form');
+    var $userForm = $('.user-form');
 
-    $categoryForm.on('submit', function()
+    $userForm.on('submit', function()
     {
       $(this).find('.dave-btn-salvar').button('loading');
     });
