@@ -21,6 +21,7 @@
 @endsection
 
 @section('scripts')
+@parent
 <script src="/bower_components/select2/select2.min.js"></script>
 <script src="/bower_components/select2/select2_locale_pt-BR.js"></script>
 <script src="/js/dashboard/dashboard.js"></script>

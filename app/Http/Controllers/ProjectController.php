@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use \Request as Request;
+use \Response as Response;
 
 use App\Dave\Repositories\ICategoryRepository as Categories;
 use App\Dave\Repositories\IUserRepository as Users;
@@ -39,6 +40,17 @@ class ProjectController extends Controller {
 
 	public function index()
 	{
+		$search = Request::get('search');
+
+		if(Request::ajax())
+    {
+      $paginate = false;
+
+      $projects = $this->projectRepository->projects($search, $paginate);
+
+      return Response::json($projects, 200);
+    }
+
 		$projects = $this->projectRepository->projects();
 
 		return view('projects.index')->with(compact('projects'));

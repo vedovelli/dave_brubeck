@@ -2,6 +2,7 @@
 
 Route::group(['prefix' => 'api', 'middleware' => 'auth.basic'], function()
 {
+  Route::get('projetos', ['uses' => 'ProjectController@index']);
   Route::get('categorias', ['uses' => 'CategoryController@index']);
   Route::get('usuarios', ['uses' => 'UserController@index']);
 });
