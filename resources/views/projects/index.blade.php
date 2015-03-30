@@ -26,7 +26,7 @@
         </div>
         <div class="panel-body">
           <h4 class="text-center"><small>líder do projeto: </small>
-            <a href="{!! route('user.show', ['id' => $project->owner->id]) !!}">{!! $project->owner->name !!}</a>
+            <a href="{!! route('user.projects', ['id' => $project->owner->id]) !!}">{!! $project->owner->name !!}</a>
           </h4>
           <div class="row">
             <div class="col-md-6">

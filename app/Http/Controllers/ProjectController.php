@@ -11,18 +11,21 @@ use App\Dave\Repositories\IProjectRepository as Projects;
 
 class ProjectController extends Controller {
 
-	protected $projects;
-	protected $categories;
-	protected $users;
+	protected $projectRepository;
+	protected $categorieRepository;
+	protected $userRepository;
 
 	/**
 	* Injeção de dependências
 	*/
-	function __construct(Projects $projects, Categories $categories, Users $users)
+	function __construct(
+		Projects $projectRepository,
+		Categories $categorieRepository,
+		Users $userRepository)
 	{
-		$this->projects = $projects;
-		$this->categories = $categories;
-		$this->users = $users;
+		$this->projectRepository = $projectRepository;
+		$this->categorieRepository = $categorieRepository;
+		$this->userRepository = $userRepository;
 	}
 
 	/**
@@ -32,7 +35,7 @@ class ProjectController extends Controller {
 	 */
 	public function index()
 	{
-		$projects = $this->projects->projects();
+		$projects = $this->projectRepository->projects();
 
 		return view('projects.index')->with(compact('projects'));
 	}
@@ -46,9 +49,9 @@ class ProjectController extends Controller {
 	{
 		$project = null;
 
-		$categories = $this->categories->categories(null, false)->toArray(); // search == null && paginate == false
+		$categories = $this->categorieRepository->categories(null, false)->toArray(); // search == null && paginate == false
 
-		$users = $this->users->users(null, false)->toArray(); // search == null && paginate == false
+		$users = $this->userRepository->users(null, false)->toArray(); // search == null && paginate == false
 
 		return view('projects.form')->with(compact('project', 'categories', 'users'));
 	}
@@ -62,7 +65,7 @@ class ProjectController extends Controller {
 	{
 		$request = Request::all();
 
-		$this->projects->store($request);
+		$this->projectRepository->store($request);
 
     return redirect()->route('project.index')->with('success', 'Projeto criado com sucesso!');
 	}
@@ -75,7 +78,7 @@ class ProjectController extends Controller {
 	 */
 	public function show($id)
 	{
-		$project = $this->projects->show($id);
+		$project = $this->projectRepository->show($id);
 
 		return view('projects.details')->with(compact('project'));
 	}

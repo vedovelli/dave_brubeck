@@ -9,7 +9,10 @@
 
   @foreach($projects as $project)
   <blockquote>
-    <strong>{!! $project->name !!}</strong><br>
+    <strong>
+      <a href="{!! route('project.show', ['id' => $project->id]) !!}">
+        {!! $project->name !!}
+      </a></strong><br>
     <em>{!! $project->description !!}</em>
   </blockquote>
   @endforeach

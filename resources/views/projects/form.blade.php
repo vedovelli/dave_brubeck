@@ -30,7 +30,7 @@
 
 <div class="form-group">
   <label for="name" class="control-label">Nome do Projeto</label>
-  <input class="form-control" type="text" name="name" value="{!!$project != null ? $project->name : ''!!}" id="name">
+  <input class="form-control" type="text" name="name" value="{!!$project != null ? $project->name : '' !!}" id="name">
 </div>
 
 <div class="form-group">
