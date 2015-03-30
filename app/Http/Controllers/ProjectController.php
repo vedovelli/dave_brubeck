@@ -9,11 +9,14 @@ use App\Dave\Repositories\ICategoryRepository as Categories;
 use App\Dave\Repositories\IUserRepository as Users;
 use App\Dave\Repositories\IProjectRepository as Projects;
 
+use \App\Dave\Services\Validators\Project as Validator;
+
 class ProjectController extends Controller {
 
 	protected $projectRepository;
 	protected $categorieRepository;
 	protected $userRepository;
+	protected $validator;
 
 	/**
 	* Injeção de dependências
@@ -21,11 +24,13 @@ class ProjectController extends Controller {
 	function __construct(
 		Projects $projectRepository,
 		Categories $categorieRepository,
-		Users $userRepository)
+		Users $userRepository,
+		Validator $validator)
 	{
 		$this->projectRepository = $projectRepository;
 		$this->categorieRepository = $categorieRepository;
 		$this->userRepository = $userRepository;
+		$this->validator = $validator;
 	}
 
 	/**
@@ -49,9 +54,19 @@ class ProjectController extends Controller {
 	{
 		$project = null;
 
-		$categories = $this->categorieRepository->categories(null, false)->toArray(); // search == null && paginate == false
+		$categories = [];
 
-		$users = $this->userRepository->users(null, false)->toArray(); // search == null && paginate == false
+		$users = [];
+
+		$categoriesOriginal = $this->categorieRepository->categories(null, false)->toArray(); // search == null && paginate == false
+		foreach ($categoriesOriginal as $value) {
+			$categories[$value['id']] = $value['name'];
+		}
+
+		$usersOriginal = $this->userRepository->users(null, false)->toArray(); // search == null && paginate == false
+		foreach ($usersOriginal as $value) {
+			$users[$value['id']] = $value['name'];
+		}
 
 		return view('projects.form')->with(compact('project', 'categories', 'users'));
 	}
@@ -63,6 +78,11 @@ class ProjectController extends Controller {
 	 */
 	public function store()
 	{
+		if(!$this->validator->passes())
+		{
+			return redirect()->back()->withError($this->validator->getErrors())->withInput();
+		}
+
 		$request = Request::all();
 
 		$this->projectRepository->store($request);

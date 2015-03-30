@@ -16,39 +16,56 @@
   </small>
 </h1>
 
+{{-- Alert --}}
+@if(Session::has('error'))
+<div class="alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Atenção!</strong>
+  <p>
+  @foreach(Session::get('error')->all() as $error)
+  &bull; {{$error}} <br>
+  @endforeach
+  </p>
+</div>
+@endif
+
+
 {!!Form::open(['url' => route('project.store')])!!}
 
 <div class="form-group">
   <label for="owner" class="control-label">Líder do Projeto</label>
-  <select name="user_id" id="owner" class="form-control">
+  {!! Form::select('user_id', ['' => '']+$users, old('user_id'), ['class' => 'form-control', 'id' => 'owner']) !!}
+  {{-- <select name="user_id" id="owner" class="form-control">
     <option selected></option>
     @foreach($users as $user)
     <option value="{!!$user['id']!!}">{!!$user['name']!!}</option>
     @endforeach
-  </select>
+  </select> --}}
 </div>
 
 <div class="form-group">
   <label for="name" class="control-label">Nome do Projeto</label>
-  <input class="form-control" type="text" name="name" value="{!!$project != null ? $project->name : '' !!}" id="name">
+  <input class="form-control" type="text" name="name" value="{!!$project != null ? $project->name : old('name') !!}" id="name">
 </div>
 
 <div class="form-group">
   <label for="categories" class="control-label">Categorias</label>
-  <select name="categories[]" id="categories" class="form-control" multiple>
+  {!! Form::select('categories[]', $categories, old('categories'), ['class' => 'form-control', 'id' => 'categories', 'multiple' => 'multiple']) !!}
+  {{-- <select name="categories[]" id="categories" class="form-control" multiple>
     @foreach($categories as $category)
     <option value="{!!$category['id']!!}">{!!$category['name']!!}</option>
     @endforeach
-  </select>
+  </select> --}}
 </div>
 
 <div class="form-group">
   <label for="members" class="control-label">Membros</label>
-  <select name="members[]" id="members" class="form-control" multiple>
+  {!! Form::select('members[]', $users, old('members'), ['class' => 'form-control', 'id' => 'members', 'multiple' => 'multiple']) !!}
+  {{-- <select name="members[]" id="members" class="form-control" multiple>
     @foreach($users as $user)
     <option value="{!!$user['id']!!}">{!!$user['name']!!}</option>
     @endforeach
-  </select>
+  </select> --}}
 </div>
 
 <div class="form-group">
