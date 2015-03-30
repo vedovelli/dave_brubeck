@@ -19,6 +19,7 @@
   {!! $project->name !!}
 </h1>
 
+@include('partials.alerts')
 
 <div class="row">
   <div class="col-md-6">
@@ -44,6 +45,17 @@
     <div class="text-right">
       <a href="{!!route('project.show', ['id' => $project->id, '#secao'])!!}">[criar seção]</a>
     </div>
+
+    <div class="row"></div>
+
+    @foreach($project->sections as $section)
+    <h4>
+      {!! $section->name !!}
+      <small><a href="#">[criar página]</a></small>
+    </h4>
+    <hr>
+    @endforeach
+
   </div>
   <div class="col-md-3">
     <div class="well well-sm">

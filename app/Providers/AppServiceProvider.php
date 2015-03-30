@@ -44,6 +44,11 @@ class AppServiceProvider extends ServiceProvider {
 			'App\Dave\Repositories\IProjectRepository',
 			'App\Dave\Repositories\ProjectRepository'
 		);
+
+		$this->app->bind(
+			'App\Dave\Repositories\ISectionRepository',
+			'App\Dave\Repositories\SectionRepository'
+		);
 	}
 
 }

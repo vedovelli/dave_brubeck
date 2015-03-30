@@ -53,6 +53,14 @@ Route::group(['middleware' => 'auth'], function()
   });
 
   /**
+  * Seções de Conteúdo
+  */
+  // Route::group(['prefix' => 'secao', function()
+  // {
+  //   Route::post('pagina', ['as' => 'page.store', 'uses' => '',]);
+  // }]);
+
+  /**
   * Usuarios
   */
   Route::group(['prefix' => 'usuarios'], function()

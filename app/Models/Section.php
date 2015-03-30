@@ -6,6 +6,8 @@ class Section extends Model {
 
 	protected $fillable = ['name'];
 
+  protected $touches = ['project'];
+
   public function project()
   {
     return $this->belongsTo('App\Models\Project');

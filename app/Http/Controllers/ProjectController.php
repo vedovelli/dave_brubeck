@@ -8,6 +8,7 @@ use \Request as Request;
 use App\Dave\Repositories\ICategoryRepository as Categories;
 use App\Dave\Repositories\IUserRepository as Users;
 use App\Dave\Repositories\IProjectRepository as Projects;
+use App\Dave\Repositories\ISectionRepository as Sections;
 
 use \App\Dave\Services\Validators\Project as Validator;
 
@@ -16,6 +17,7 @@ class ProjectController extends Controller {
 	protected $projectRepository;
 	protected $categorieRepository;
 	protected $userRepository;
+	protected $sectionRepository;
 	protected $validator;
 
 	/**
@@ -25,11 +27,13 @@ class ProjectController extends Controller {
 		Projects $projectRepository,
 		Categories $categorieRepository,
 		Users $userRepository,
+		Sections $sectionRepository,
 		Validator $validator
 	){
 		$this->projectRepository = $projectRepository;
 		$this->categorieRepository = $categorieRepository;
 		$this->userRepository = $userRepository;
+		$this->sectionRepository = $sectionRepository;
 		$this->validator = $validator;
 	}
 
@@ -104,7 +108,8 @@ class ProjectController extends Controller {
 
 	public function section($id)
 	{
-		
+		$this->sectionRepository->store($id, Request::all());
+		return redirect()->route('project.show', ['id' => $id])->with('success', 'Seção de conteúdo criada com sucesso!');
 	}
 
 	protected function returnProjectData($id = null)
