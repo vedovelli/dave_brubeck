@@ -51,7 +51,7 @@
     @foreach($project->sections as $section)
     <h4>
       {!! $section->name !!}
-      <small><a href="#">[criar página]</a></small>
+      <small><a href="{!! route('project.section.page', ['id'=> $project->id, 'section_id'=> $section->id]) !!}">[criar página]</a></small>
     </h4>
     <hr>
     @endforeach

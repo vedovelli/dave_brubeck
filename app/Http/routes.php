@@ -51,6 +51,7 @@ Route::group(['middleware' => 'auth'], function()
     Route::get('{id}/editar', ['as' => 'project.edit', 'uses' => 'ProjectController@edit']);
     Route::post('{id}/atualizar', ['as' => 'project.update', 'uses' => 'ProjectController@update']);
     Route::post('{id}/secao', ['as' => 'project.section', 'uses' => 'ProjectController@section']);
+    Route::get('{id}/secao/{section_id}/page', ['as' => 'project.section.page', 'uses' => 'PageController@create']);
     Route::get('{id}', ['as' => 'project.show', 'uses' => 'ProjectController@show']);
   });
 
