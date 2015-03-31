@@ -7,6 +7,7 @@
     var $categories = $('#categories'),
         $owner = $('#owner'),
         $members = $('#members'),
+        $tornarMeLider = $('#tornarMeLider'),
         url = window.location;
 
     if(url.hash === '#secao')
@@ -23,6 +24,12 @@
     {
       $owner.select2({
         placeholder: 'Selecionar um líder para o projeto'
+      });
+
+      $tornarMeLider.on('click', function(event)
+      {
+        event.preventDefault();
+        $owner.val($(this).data('userId')).trigger('change');
       });
     }
 

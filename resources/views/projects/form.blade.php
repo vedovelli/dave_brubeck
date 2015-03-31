@@ -34,7 +34,10 @@
 @include('partials.alerts')
 
 <div class="form-group">
-  <label for="owner" class="control-label">Líder do Projeto</label>
+  <label for="owner" class="control-label">
+    Líder do Projeto
+    <small><a href="#" id="tornarMeLider" data-user-id="{!! Auth::user()->id !!}">[tornar-me líder]</a></small>
+  </label>
   {!! Form::select('user_id', ['' => '']+$allUsers, !is_null($project) ? $project->owner->id : old('user_id'), ['class' => 'form-control', 'id' => 'owner']) !!}
 </div>
 
