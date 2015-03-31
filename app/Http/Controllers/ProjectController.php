@@ -53,7 +53,15 @@ class ProjectController extends Controller {
 
 		$projects = $this->projectRepository->projects();
 
-		return view('projects.index')->with(compact('projects'));
+		$categories = ['' => 'Categorias'] + $this->categorieRepository->categoriesWithProjects();
+
+		$users = ['' => 'Usuários'] + $this->userRepository->usersWithProjects();
+
+		// $categories = ['' => 'Categorias'] + $this->categorieRepository->categoriesForSelect();
+
+		// $users = ['' => 'Usuários'] + $this->userRepository->usersForSelect();
+
+		return view('projects.index')->with(compact('projects', 'categories', 'users'));
 	}
 
 	public function create()
@@ -152,17 +160,9 @@ class ProjectController extends Controller {
 			}
 		}
 
-		$categoriesOriginal = $this->categorieRepository->categories(null, false)->toArray(); // search == null && paginate == false
+		$allCategories = $this->categorieRepository->categoriesForSelect();
 
-		foreach ($categoriesOriginal as $value) {
-			$allCategories[$value['id']] = $value['name']; // formato para Form::select()
-		}
-
-		$usersOriginal = $this->userRepository->users(null, false)->toArray(); // search == null && paginate == false
-
-		foreach ($usersOriginal as $value) {
-			$allUsers[$value['id']] = $value['name']; // formato para Form::select()
-		}
+		$allUsers = $this->userRepository->usersForSelect();
 
 		return compact('project', 'allCategories', 'allUsers', 'projectCategories', 'projectMembers');
 	}

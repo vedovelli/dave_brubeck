@@ -1,6 +1,7 @@
 <?php namespace App\Dave\Repositories;
 
 use App\Models\Category;
+use \DB as DB;
 
 class CategoryRepository implements ICategoryRepository
 {
@@ -22,6 +23,46 @@ class CategoryRepository implements ICategoryRepository
     * Este, sem paginação, visa atender à API
     */
     return Category::where('name', 'like', "%$search%")->get();
+  }
+
+  public function categoriesForSelect()
+  {
+    $categoriesOriginal = $this->categories(null, false)->toArray(); // search == null && paginate == false
+
+    foreach ($categoriesOriginal as $value) {
+      $allCategories[$value['id']] = $value['name']; // formato para Form::select()
+    }
+
+    return $allCategories;
+  }
+
+  public function categoriesWithProjects()
+  {
+    /**
+    * Seleciona todos os IDs de categorias associadas a projetos
+    */
+    $catsWithProjs = DB::table('category_project')->distinct()->get(['category_id']);
+
+    /**
+    * Reduz o array a apenas IDs
+    */
+    foreach ($catsWithProjs as $value) {
+      $categories[] = $value->category_id;
+    }
+
+    /**
+    * Obtem uma Collection de objetos Category
+    */
+    $categoriesOriginal = Category::whereIn('id', $categories)->get();
+
+    /**
+    * Formato amigável para Form::select()
+    */
+    foreach ($categoriesOriginal as $value) {
+      $allCategories[$value['id']] = $value['name'];
+    }
+
+    return $allCategories;
   }
 
   public function show($id)

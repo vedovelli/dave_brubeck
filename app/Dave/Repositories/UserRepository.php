@@ -1,6 +1,7 @@
 <?php namespace App\Dave\Repositories;
 
 use App\Models\User;
+use \DB as DB;
 
 class UserRepository implements IUserRepository
 {
@@ -22,6 +23,46 @@ class UserRepository implements IUserRepository
     * Este, sem paginação, visa atender à API
     */
     return User::where('name', 'like', "%$search%")->get();
+  }
+
+  public function usersForSelect()
+  {
+    $usersOriginal = $this->users(null, false)->toArray(); // search == null && paginate == false
+
+    foreach ($usersOriginal as $value) {
+      $allUsers[$value['id']] = $value['name']; // formato para Form::select()
+    }
+
+    return $allUsers;
+  }
+
+  public function usersWithProjects()
+  {
+    /**
+    * Seleciona todos os IDs de usuarios associadas a projetos
+    */
+    $usersWithProjs = DB::table('project_user')->distinct()->get(['user_id']);
+
+    /**
+    * Reduz o array a apenas IDs
+    */
+    foreach ($usersWithProjs as $value) {
+      $users[] = $value->user_id;
+    }
+
+    /**
+    * Obtem uma Collection de objetos User
+    */
+    $usersOriginal = User::whereIn('id', $users)->get();
+
+    /**
+    * Formato amigável para Form::select()
+    */
+    foreach ($usersOriginal as $value) {
+      $allUsers[$value['id']] = $value['name'];
+    }
+
+    return $allUsers;
   }
 
   public function show($id)

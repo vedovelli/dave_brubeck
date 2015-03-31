@@ -1,3 +1,4 @@
+{{-- TODO transformar selects em Select2 --}}
 @extends('layout.sbadmin')
 
 @section('content')
@@ -17,21 +18,19 @@
 
 <div class="well">
   <div class="row">
-    <div class="col-md-6"><strong>Filtrar por</strong></div>
-    <div class="col-md-6"><strong>Ordenar por</strong></div>
+    <div class="col-md-4"><strong>Filtrar por</strong></div>
+    <div class="col-md-4"><strong>Filtrar por</strong></div>
+    <div class="col-md-4"><strong>Ordenar por</strong></div>
   </div>
   <div class="row">
-    <div class="col-md-3">
-      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    <div class="col-md-4">
+      {!! Form::select('', $categories, null, ['class' => 'form-control select2', 'id' => 'filtroCategories']) !!}
     </div>
-    <div class="col-md-3">
-      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    <div class="col-md-4">
+      {!! Form::select('', $users, null, ['class' => 'form-control select2', 'id' => 'filtroUsers']) !!}
     </div>
-    <div class="col-md-3">
-      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
-    </div>
-    <div class="col-md-3">
-      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    <div class="col-md-4">
+      {!! Form::select('', ['' => '', 'atualizacao' => 'Data última atualização', 'nome' => 'Nome do projeto',], null, ['class' => 'form-control select2', 'id' => 'filtro']) !!}
     </div>
   </div>
 </div>
