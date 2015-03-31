@@ -14,6 +14,11 @@
       $('#modalSection').modal('show');
     }
 
+    $('#modalSection').on('hidden.bs.modal', function()
+    {
+      // TODO pensar numa maneira de zerar o #hash
+    });
+
     if($owner.length)
     {
       $owner.select2({

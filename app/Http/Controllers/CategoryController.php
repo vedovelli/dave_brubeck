@@ -7,7 +7,6 @@ use \App\Dave\Repositories\ICategoryRepository as Repository;
 
 class CategoryController extends Controller
 {
-
   protected $repository;
   protected $validator;
 

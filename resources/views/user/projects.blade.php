@@ -12,7 +12,7 @@
   </p>
 
   <h1 class="page-header">
-    <i class="fa fa-user"></i>
+    @include('partials.gravatar', ['email' => $user->email, 'size' => 40])
     {!! $user->name !!} <small>Projetos do Usuário</small>
   </h1>
 

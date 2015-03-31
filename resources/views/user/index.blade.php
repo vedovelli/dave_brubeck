@@ -20,7 +20,6 @@
     <table class="table table-striped table-bordered table-hover">
       <thead>
         <tr>
-          <th>ID</th>
           <th>Nome Usuário</th>
           <th>Ações</th>
         </tr>
@@ -28,8 +27,7 @@
       <tbody>
         @foreach($users as $user)
         <tr>
-          <td width="1%" nowrap>{{$user->id}}</td>
-          <td>{{$user->name}}</td>
+          <td>@include('partials.gravatar', ['email' => $user->email, 'size' => 20]) {{$user->name}}</td>
           <td width="1%" nowrap>
             [<a href="{!! route('user.projects', ['id' => $user->id]) !!}" title="Veja os projetos do usuário">projetos</a>] 
             [<a href="{{route('user.edit', ['id' => $user->id, 'page' => $users->currentPage(), 'search' => $search])}}">editar</a>] 

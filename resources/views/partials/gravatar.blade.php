@@ -1,0 +1,1 @@
+<img src="http://www.gravatar.com/avatar/{!! md5($email) !!}?s={!! $size !!}" width="{!! $size !!}">

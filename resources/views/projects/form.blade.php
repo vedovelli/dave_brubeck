@@ -55,7 +55,7 @@
 
 <div class="form-group">
   <label for="description" class="control-label">Descrição</label>
-  <textarea class="form-control" name="description" id="description" rows="5">{!! !is_null($project->description) ? $project->description : old('description') !!}</textarea>
+  <textarea class="form-control" name="description" id="description" rows="5">{!! !is_null($project) ? $project->description : old('description') !!}</textarea>
 </div>
 
 <div class="row">

@@ -4,6 +4,7 @@
 <h1 class="page-header">
   <i class="fa fa-clipboard"></i>
   Projetos <small><a href="{!!route('project.create')!!}">[novo]</a></small>
+  <input type="search" class="form-control pull-right" placeholder="Busca: digite o nome do projeto e pressione enter" style="width: 400px; font-weight: normal; font-size: 12px;">
 </h1>
 
 {{-- Alert --}}
@@ -13,6 +14,27 @@
   <strong>Sucesso!</strong> {{Session::get('success')}}
 </div>
 @endif
+
+<div class="well">
+  <div class="row">
+    <div class="col-md-6"><strong>Filtrar por</strong></div>
+    <div class="col-md-6"><strong>Ordenar por</strong></div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    </div>
+    <div class="col-md-3">
+      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    </div>
+    <div class="col-md-3">
+      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    </div>
+    <div class="col-md-3">
+      {!! Form::select('', [], null, ['class' => 'form-control', 'id' => 'filtro']) !!}
+    </div>
+  </div>
+</div>
 
 @foreach(array_chunk($projects->items(), 3) as $row)
 <div class="row">

@@ -195,7 +195,7 @@
     </a>
     <ul class="dropdown-menu dropdown-user">
         <li><a href="{{route('profile.index')}}">
-            <img src="http://www.gravatar.com/avatar/{{md5(Auth::user()->email)}}?s=20">
+            @include('partials.gravatar', ['email' => Auth::user()->email, 'size' => 20])
             Perfil do Usuário</a>
         </li>
         <li><a href="{{route('profile.password')}}">

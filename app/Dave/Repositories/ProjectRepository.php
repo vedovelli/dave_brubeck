@@ -72,6 +72,10 @@ class ProjectRepository implements IProjectRepository
 
   public function update($id, $request)
   {
+
+    /**
+    * TODO implementar atualizacao de membros e categorias
+    */
     $project = Project::find($id);
     $project->fill($request);
     $project->save();
