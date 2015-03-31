@@ -16,8 +16,11 @@
 				</ul>
 			</div>
 		@endif
+	
 
-		<div class="text-center">
+	@include('partials.alerts')
+
+		 <div class="text-center">
 			<img src="/img/dave-brubeck-login.jpg">
 		</div>
 

@@ -169,7 +169,9 @@ class UserController extends Controller {
 
     $this->userRepository->update(Auth::user()->id, Request::all());
 
-    return redirect()->route('profile.password')->with('success', 'Senha alterada com sucesso!');
+    Auth::logout();
+
+    return redirect('auth/login')->with('success', 'Senha alterada com sucesso!');
   }
 
 }
