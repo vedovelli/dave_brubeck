@@ -25,6 +25,7 @@ Route::group(['middleware' => 'auth'], function()
     Route::get('{id}/editar', ['as' => 'category.edit', 'uses' => 'CategoryController@edit']);
     Route::post('{id}/atualizar', ['as' => 'category.update', 'uses' => 'CategoryController@update']);
     Route::get('{id}/remover', ['as' => 'category.destroy', 'uses' => 'CategoryController@destroy']);
+    Route::get('{id}/projetos', ['as' => 'category.projects', 'uses' => 'CategoryController@projects']);
   });
 
   /**

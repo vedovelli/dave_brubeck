@@ -84,4 +84,13 @@ class CategoryController extends Controller
     return redirect()->route('category.index', $page)->with('destroy', 'Categoria removida com sucesso!');
   }
 
+  public function projects($id)
+  {
+    $category = $this->repository->show($id);
+
+    $projects = $category->projects;
+
+    return view('category.projects')->with(compact('category', 'projects'));
+  }
+
 }

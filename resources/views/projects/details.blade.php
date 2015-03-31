@@ -39,7 +39,7 @@
     <div class="well well-sm">
       <strong>Categorias: </strong>
       @foreach($project->categories as $category)
-      <a href="#">{!! $category->name !!}</a> |
+      <a href="{!! route('category.projects', ['id' => $category->id]) !!}">{!! $category->name !!}</a> |
       @endforeach
     </div>
     <div class="text-right">
