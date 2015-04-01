@@ -38,28 +38,33 @@ class CategoryRepository implements ICategoryRepository
 
   public function categoriesWithProjects()
   {
+    $allCategories = [];
+
     /**
     * Seleciona todos os IDs de categorias associadas a projetos
     */
     $catsWithProjs = DB::table('category_project')->distinct()->get(['category_id']);
 
-    /**
-    * Reduz o array a apenas IDs
-    */
-    foreach ($catsWithProjs as $value) {
-      $categories[] = $value->category_id;
-    }
+    if(count($catsWithProjs) > 0)
+    {
+      /**
+      * Reduz o array a apenas IDs
+      */
+      foreach ($catsWithProjs as $value) {
+        $categories[] = $value->category_id;
+      }
 
-    /**
-    * Obtem uma Collection de objetos Category
-    */
-    $categoriesOriginal = Category::whereIn('id', $categories)->get();
+      /**
+      * Obtem uma Collection de objetos Category
+      */
+      $categoriesOriginal = Category::whereIn('id', $categories)->get();
 
-    /**
-    * Formato amigável para Form::select()
-    */
-    foreach ($categoriesOriginal as $value) {
-      $allCategories[$value['id']] = $value['name'];
+      /**
+      * Formato amigável para Form::select()
+      */
+      foreach ($categoriesOriginal as $value) {
+        $allCategories[$value['id']] = $value['name'];
+      }
     }
 
     return $allCategories;
