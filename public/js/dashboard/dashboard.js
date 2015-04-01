@@ -10,7 +10,7 @@
     $buscaRapida.select2({
       minimumInputLength: 3,
       ajax: {
-        url: "http://dave.app/api/projetos",
+        url: "/api/projetos",
         dataType: 'json',
         quietMillis: 250,
         data: function (term) {

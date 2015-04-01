@@ -26,9 +26,9 @@
 </h1>
 
 @if(!is_null($project))
-  {!!Form::open(['url' => route('project.update', ['id' => $project->id])])!!}
+  {!!Form::open(['url' => route('project.update', ['id' => $project->id]), 'id' => 'project-form'])!!}
 @else
-  {!!Form::open(['url' => route('project.store')])!!}
+  {!!Form::open(['url' => route('project.store'), 'id' => 'project-form'])!!}
 @endif
 
 @include('partials.alerts')
@@ -76,7 +76,7 @@
     @endif
   </div>
   <div class="col-md-6 text-right">
-    <button class="btn btn-success" type="submit" data-loading-text="Salvando...">
+    <button class="btn btn-success dave-btn-salvar" type="submit" data-loading-text="Salvando...">
       <i class="fa fa-save"></i>
       Salvar
     </button>

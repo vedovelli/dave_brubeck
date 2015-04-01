@@ -14,7 +14,7 @@ class AddOwnerToProject extends Migration {
 	{
 		Schema::table('projects', function($table)
 		{
-			$table->integer('owner')->after('id');
+			$table->integer('user_id')->after('id');
 		});
 	}
 
@@ -27,7 +27,7 @@ class AddOwnerToProject extends Migration {
 	{
 		Schema::table('projects', function($table)
 		{
-			$table->dropColumn('owner');
+			$table->dropColumn('user_id');
 		});
 	}
 

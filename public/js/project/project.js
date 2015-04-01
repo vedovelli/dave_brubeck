@@ -8,7 +8,13 @@
         $owner = $('#owner'),
         $members = $('#members'),
         $tornarMeLider = $('#tornarMeLider'),
+        $projectForm = $('#project-form'),
         url = window.location;
+
+    $projectForm.on('submit', function()
+    {
+      $(this).find('.dave-btn-salvar').button('loading');
+    });
 
     if(url.hash === '#secao')
     {

@@ -27,6 +27,8 @@ class CategoryRepository implements ICategoryRepository
 
   public function categoriesForSelect()
   {
+    $allCategories = [];
+
     $categoriesOriginal = $this->categories(null, false)->toArray(); // search == null && paginate == false
 
     foreach ($categoriesOriginal as $value) {

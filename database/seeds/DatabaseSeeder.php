@@ -43,7 +43,7 @@ class UserTableSeeder extends Seeder
 	{
 		DB::table('users')->delete();
 
-		User::create(['name' => 'Vedovelli', 'email' => 'fabio@vedovelli.com.br', 'password' => Hash::make('123456')]);
+		User::create(['name' => 'Vedovelli', 'email' => 'fabio@vedovelli.com.br', 'password' => '123456']);
 
 		$faker = Faker\Factory::create();
 
@@ -52,7 +52,7 @@ class UserTableSeeder extends Seeder
 			User::create([
 				'name' => $faker->firstName,
 				'email' => $faker->email,
-				'password' => Hash::make($faker->word)]);
+				'password' => $faker->word]);
 		}
 	}
 }
