@@ -2,6 +2,11 @@
 * Dave Brubeck CSS
 */
 
+.select2
+{
+    display: none;
+}
+
 .dave-texto-apagado
 {
     color: #ccc;

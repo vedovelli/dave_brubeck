@@ -1,9 +1,5 @@
 @extends('layout.sbadmin')
 
-@section('styles')
-<link rel="stylesheet" href="/bower_components/select2/select2.css">
-<link rel="stylesheet" href="/bower_components/select2-bootstrap/select2-bootstrap.css">
-@endsection
 
 @section('content')
 <h1 class="page-header">
@@ -22,7 +18,5 @@
 
 @section('scripts')
 @parent
-<script src="/bower_components/select2/select2.min.js"></script>
-<script src="/bower_components/select2/select2_locale_pt-BR.js"></script>
 <script src="/js/dashboard/dashboard.js"></script>
 @endsection

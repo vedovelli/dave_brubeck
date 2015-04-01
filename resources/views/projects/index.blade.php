@@ -1,11 +1,13 @@
-{{-- TODO transformar selects em Select2 --}}
 @extends('layout.sbadmin')
 
 @section('content')
 <h1 class="page-header">
   <i class="fa fa-clipboard"></i>
   Projetos <small><a href="{!!route('project.create')!!}">[novo]</a></small>
-  <input type="search" class="form-control pull-right" placeholder="Busca: digite o nome do projeto e pressione enter" style="width: 400px; font-weight: normal; font-size: 12px;">
+  {{-- search --}}
+  <div style="width: 400px; font-weight: normal;" class="pull-right">
+    @include('partials.search', ['search' => $search, 'route' => route('project.index')])
+  </div>
 </h1>
 
 {{-- Alert --}}
@@ -18,19 +20,15 @@
 
 <div class="well">
   <div class="row">
-    <div class="col-md-4"><strong>Filtrar por</strong></div>
-    <div class="col-md-4"><strong>Filtrar por</strong></div>
-    <div class="col-md-4"><strong>Ordenar por</strong></div>
+    <div class="col-md-6"><strong>Filtrar por Categorias</strong></div>
+    <div class="col-md-6"><strong>Ordenar por</strong></div>
   </div>
   <div class="row">
-    <div class="col-md-4">
-      {!! Form::select('', $categories, null, ['class' => 'form-control select2', 'id' => 'filtroCategories']) !!}
+    <div class="col-md-6">
+      {!! Form::select('categories', $categoryList, $categories, ['class' => 'form-control select2', 'id' => 'filtroCategories', 'multiple' => 'multiple', 'placeholder' => 'Escolher uma ou mais categorias...', 'data-url' => route('project.index')]) !!}
     </div>
-    <div class="col-md-4">
-      {!! Form::select('', $users, null, ['class' => 'form-control select2', 'id' => 'filtroUsers']) !!}
-    </div>
-    <div class="col-md-4">
-      {!! Form::select('', ['' => '', 'atualizacao' => 'Data última atualização', 'nome' => 'Nome do projeto',], null, ['class' => 'form-control select2', 'id' => 'filtro']) !!}
+    <div class="col-md-6">
+      {!! Form::select('order_by', ['' => '', 'atualizacao' => 'Data última atualização', 'nome' => 'Nome do projeto',], null, ['class' => 'form-control select2', 'id' => 'filtro']) !!}
     </div>
   </div>
 </div>
@@ -55,5 +53,10 @@
   @endforeach
 </div>
 @endforeach
+
+@section('scripts')
+@parent
+<script src="/js/project/project.js"></script>
+@endsection
 
 @endsection

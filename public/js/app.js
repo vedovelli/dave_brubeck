@@ -19,6 +19,8 @@
         $('.dave-side-clique').animate({opacity: 0});
     });
 
+    $('.select2').select2();
+
     /**
     * SB Admin scripts
     */

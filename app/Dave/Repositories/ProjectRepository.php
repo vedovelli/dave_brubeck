@@ -7,7 +7,7 @@ use \DB as DB;
 
 class ProjectRepository implements IProjectRepository
 {
-  public function projects($search = null, $paginate = true)
+  public function projects($search = null, $categories = null, $paginate = true)
   {
     $result = null;
 
@@ -16,6 +16,19 @@ class ProjectRepository implements IProjectRepository
       if(!is_null($search) && !empty($search))
       {
         return Project::where('name', 'like', "%$search%")->paginate(env('PAGINATION_ITEMS', 10));
+      }
+
+      if(!is_null($categories) && !empty($categories))
+      {
+        $projectsFromCategories = DB::table('category_project')->whereIn('category_id', $categories)->distinct()->get(['project_id']);
+
+        $projectIds = [];
+
+        foreach ($projectsFromCategories as $value) {
+          $projectIds[] = $value->project_id;
+        }
+
+        return Project::whereIn('id', $projectIds)->paginate(env('PAGINATION_ITEMS', 10));
       }
 
       return Project::paginate(env('PAGINATION_ITEMS', 10));

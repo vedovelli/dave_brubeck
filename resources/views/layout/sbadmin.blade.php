@@ -23,6 +23,10 @@
     <!-- Custom Fonts -->
     <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Select2 -->
+    <link rel="stylesheet" href="/bower_components/select2/select2.css">
+    <link rel="stylesheet" href="/bower_components/select2-bootstrap/select2-bootstrap.css">
+
     @yield('styles')
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -98,6 +102,10 @@
 
     <!-- Metis Menu Plugin JavaScript -->
     <script src="/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Select2 -->
+    <script src="/bower_components/select2/select2.min.js"></script>
+    <script src="/bower_components/select2/select2_locale_pt-BR.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="/js/app.js"></script>

@@ -9,7 +9,11 @@
         $members = $('#members'),
         $tornarMeLider = $('#tornarMeLider'),
         $projectForm = $('#project-form'),
+        $filtroCategories = $('#filtroCategories'),
+        $filtroUsers = $('#filtroUsers'),
+        $filtro = $('#filtro'),
         url = window.location;
+
 
     $projectForm.on('submit', function()
     {
@@ -26,30 +30,27 @@
       // TODO pensar numa maneira de zerar o #hash
     });
 
-    if($owner.length)
+    $filtroCategories.on('change', function()
     {
-      $owner.select2({
-        placeholder: 'Selecionar um líder para o projeto'
-      });
+      var select = $(this),
+          url = select.data('url'),
+          val = select.val();
 
+      if(val === null)
+      {
+        window.location = url;
+      } else {
+        window.location = url +'?categories='+encodeURIComponent($(this).val());
+      }
+
+    });
+
+    if($tornarMeLider.length)
+    {
       $tornarMeLider.on('click', function(event)
       {
         event.preventDefault();
         $owner.val($(this).data('userId')).trigger('change');
-      });
-    }
-
-    if($categories.length)
-    {
-      $categories.select2({
-        placeholder: 'Selecionar uma ou mais categorias'
-      });
-    }
-
-    if($members.length)
-    {
-      $members.select2({
-        placeholder: 'Selecionar um ou mais membros'
       });
     }
   });

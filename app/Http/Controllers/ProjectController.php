@@ -40,7 +40,14 @@ class ProjectController extends Controller {
 
 	public function index()
 	{
-		$search = Request::get('search');
+		$search = urldecode(Request::get('search'));
+
+		$categories = urldecode(Request::get('categories'));
+
+		if(!empty($categories))
+		{
+			$categories = explode(',', $categories);
+		}
 
 		if(Request::ajax())
     {
@@ -51,17 +58,11 @@ class ProjectController extends Controller {
       return Response::json($projects, 200);
     }
 
-		$projects = $this->projectRepository->projects();
+		$projects = $this->projectRepository->projects($search, $categories);
 
-		$categories = ['' => 'Categorias'] + $this->categorieRepository->categoriesWithProjects();
+		$categoryList = $this->categorieRepository->categoriesWithProjects();
 
-		$users = ['' => 'Usuários'] + $this->userRepository->usersWithProjects();
-
-		// $categories = ['' => 'Categorias'] + $this->categorieRepository->categoriesForSelect();
-
-		// $users = ['' => 'Usuários'] + $this->userRepository->usersForSelect();
-
-		return view('projects.index')->with(compact('projects', 'categories', 'users'));
+		return view('projects.index')->with(compact('projects', 'categoryList', 'search', 'categories'));
 	}
 
 	public function create()

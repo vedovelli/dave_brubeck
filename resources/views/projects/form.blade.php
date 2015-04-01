@@ -1,10 +1,5 @@
 @extends('layout.sbadmin')
 
-@section('styles')
-<link rel="stylesheet" href="/bower_components/select2/select2.css">
-<link rel="stylesheet" href="/bower_components/select2-bootstrap/select2-bootstrap.css">
-@endsection
-
 @section('content')
 
 <h1 class="page-header">
@@ -38,7 +33,7 @@
     Líder do Projeto
     <small><a href="#" id="tornarMeLider" data-user-id="{!! Auth::user()->id !!}">[tornar-me líder]</a></small>
   </label>
-  {!! Form::select('user_id', ['' => '']+$allUsers, !is_null($project) ? $project->owner->id : old('user_id'), ['class' => 'form-control', 'id' => 'owner']) !!}
+  {!! Form::select('user_id', ['' => '']+$allUsers, !is_null($project) ? $project->owner->id : old('user_id'), ['class' => 'form-control select2', 'id' => 'owner', 'placeholder' => 'Selecionar um líder para o projeto']) !!}
 </div>
 
 <div class="form-group">
@@ -48,12 +43,12 @@
 
 <div class="form-group">
   <label for="categories" class="control-label">Categorias</label>
-  {!! Form::select('categories[]', $allCategories, count($projectCategories) > 0 ? $projectCategories : old('categories'), ['class' => 'form-control', 'id' => 'categories', 'multiple' => 'multiple']) !!}
+  {!! Form::select('categories[]', $allCategories, count($projectCategories) > 0 ? $projectCategories : old('categories'), ['class' => 'form-control select2', 'multiple' => 'multiple', 'placeholder' => 'Selecionar uma ou mais categorias']) !!}
 </div>
 
 <div class="form-group">
   <label for="members" class="control-label">Membros</label>
-  {!! Form::select('members[]', $allUsers, count($projectMembers) > 0 ? $projectMembers : old('members'), ['class' => 'form-control', 'id' => 'members', 'multiple' => 'multiple']) !!}
+  {!! Form::select('members[]', $allUsers, count($projectMembers) > 0 ? $projectMembers : old('members'), ['class' => 'form-control select2', 'placeholder' => 'Selecionar um ou mais membros', 'multiple' => 'multiple']) !!}
 </div>
 
 <div class="form-group">
@@ -89,7 +84,5 @@
 
 @section('scripts')
 @parent
-<script src="/bower_components/select2/select2.min.js"></script>
-<script src="/bower_components/select2/select2_locale_pt-BR.js"></script>
 <script src="/js/project/project.js"></script>
 @endsection
