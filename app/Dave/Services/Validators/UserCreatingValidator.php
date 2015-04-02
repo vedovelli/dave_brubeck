@@ -1,6 +1,6 @@
 <?php namespace App\Dave\Services\Validators;
 
-class UserCreating extends Validator
+class UserCreatingValidator extends Validator
 {
   public static $rules = [
     'name' => 'required',

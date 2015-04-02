@@ -1,6 +1,6 @@
 <?php namespace App\Dave\Services\Validators;
 
-class Project extends Validator
+class ProjectValidator extends Validator
 {
   public static $rules = [
     'user_id' => 'required',

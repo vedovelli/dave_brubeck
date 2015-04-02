@@ -1,6 +1,6 @@
 <?php namespace App\Dave\Services\Validators;
 
-class Category extends Validator
+class CategoryValidator extends Validator
 {
   public static $rules = [
     'name' => 'required'

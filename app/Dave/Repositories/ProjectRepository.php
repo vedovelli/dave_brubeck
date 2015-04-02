@@ -7,7 +7,7 @@ use \DB as DB;
 
 class ProjectRepository implements IProjectRepository
 {
-  public function projects($search = null, $categories = null, $paginate = true)
+  public function projects($search = null, $categories = null, $orderby = null, $paginate = true)
   {
     $result = null;
 
@@ -19,6 +19,7 @@ class ProjectRepository implements IProjectRepository
     if($paginate)
     {
       /**
+      * SEARCH
       * Se existe um termo de busca, retorna a lista filtrada pelo termo
       */
       if(!is_null($search) && !empty($search))
@@ -27,6 +28,7 @@ class ProjectRepository implements IProjectRepository
       }
 
       /**
+      * CATEGORIES
       * Se existe uma ou mais categoria(s), retorna a lista filtrada por ela(s)
       */
       if(!is_null($categories) && !empty($categories))
@@ -50,6 +52,17 @@ class ProjectRepository implements IProjectRepository
         * Por fim retorna-se a lista dos projetos
         */
         return Project::whereIn('id', $projectIds)->paginate(env('PAGINATION_ITEMS', 10));
+      }
+
+      /**
+      * ORDER BY
+      * Se existe ordenação, retorna a lista ordenada pela instrução recebida
+      */
+      if(!is_null($orderby) && !empty($orderby))
+      {
+        $order = explode('|', $orderby);
+
+        return Project::orderBy($order[0], $order[1])->paginate(env('PAGINATION_ITEMS', 10));
       }
 
       /**

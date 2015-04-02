@@ -1,6 +1,6 @@
 <?php namespace App\Dave\Services\Validators;
 
-class UserPassword extends Validator
+class UserPasswordValidator extends Validator
 {
   public static $rules = [
     'password' => 'required|min:4',

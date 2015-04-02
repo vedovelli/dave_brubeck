@@ -10,7 +10,6 @@
         $tornarMeLider = $('#tornarMeLider'),
         $projectForm = $('#project-form'),
         $filtroCategories = $('#filtroCategories'),
-        $filtroUsers = $('#filtroUsers'),
         $filtro = $('#filtro'),
         url = window.location;
 
@@ -28,6 +27,20 @@
     $('#modalSection').on('hidden.bs.modal', function()
     {
       // TODO pensar numa maneira de zerar o #hash
+    });
+
+    $filtro.on('change', function()
+    {
+      var select = $(this),
+          url = select.data('url'),
+          val = select.val();
+
+      if(val === null || val === '')
+      {
+        window.location = url;
+      } else {
+        window.location = url +'?orderby='+encodeURIComponent($(this).val());
+      }
     });
 
     $filtroCategories.on('change', function()

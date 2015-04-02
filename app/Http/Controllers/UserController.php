@@ -5,9 +5,9 @@ use \Request as Request;
 
 use \App\Dave\Repositories\IUserRepository as UserRepository;
 use \App\Dave\Repositories\IProjectRepository as ProjectRepository;
-use \App\Dave\Services\Validators\UserCreating as ValidatorCreating;
-use \App\Dave\Services\Validators\UserUpdating as ValidatorUpdating;
-use \App\Dave\Services\Validators\UserPassword as ValidatorPassword;
+use \App\Dave\Services\Validators\UserCreatingValidator as ValidatorCreating;
+use \App\Dave\Services\Validators\UserUpdatingValidator as ValidatorUpdating;
+use \App\Dave\Services\Validators\UserPasswordValidator as ValidatorPassword;
 
 class UserController extends Controller {
 

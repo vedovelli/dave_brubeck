@@ -28,7 +28,17 @@
       {!! Form::select('categories', $categoryList, $categories, ['class' => 'form-control select2', 'id' => 'filtroCategories', 'multiple' => 'multiple', 'placeholder' => 'Escolher uma ou mais categorias...', 'data-url' => route('project.index')]) !!}
     </div>
     <div class="col-md-6">
-      {!! Form::select('order_by', ['' => '', 'atualizacao' => 'Data última atualização', 'nome' => 'Nome do projeto',], null, ['class' => 'form-control select2', 'id' => 'filtro']) !!}
+      {!! Form::select(
+        'order_by', // nome do campo
+        ['' => '', 'updated_at|asc' => 'Última atualização - ASC', 'updated_at|desc' => 'Última atualização - DESC', 'name|asc' => 'Nome do projeto - ASC', 'name|desc' => 'Nome do projeto - DESC'], // <option>s
+        $orderby, // valor selecionado
+        [ // configurações adicionais
+          'class' => 'form-control select2',
+          'id' => 'filtro',
+          'placeholder' => 'Escolher a ordenação...',
+          'data-url' => route('project.index')
+        ]
+      ) !!}
     </div>
   </div>
 </div>

@@ -19,7 +19,7 @@
         $('.dave-side-clique').animate({opacity: 0});
     });
 
-    $('.select2').select2();
+    $('.select2').select2({allowClear: true});
 
     /**
     * SB Admin scripts

@@ -2,7 +2,7 @@
 
 use \Request as Request;
 use \Response as Response;
-use \App\Dave\Services\Validators\Category as Validator;
+use \App\Dave\Services\Validators\CategoryValidator as Validator;
 use \App\Dave\Repositories\ICategoryRepository as Repository;
 
 class PageController extends Controller

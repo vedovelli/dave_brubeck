@@ -11,7 +11,7 @@ use App\Dave\Repositories\IUserRepository as Users;
 use App\Dave\Repositories\IProjectRepository as Projects;
 use App\Dave\Repositories\ISectionRepository as Sections;
 
-use \App\Dave\Services\Validators\Project as Validator;
+use \App\Dave\Services\Validators\ProjectValidator as Validator;
 
 class ProjectController extends Controller {
 
@@ -44,9 +44,16 @@ class ProjectController extends Controller {
 
 		$categories = urldecode(Request::get('categories'));
 
+		$orderby = urldecode(Request::get('orderby'));
+
 		if(!empty($categories))
 		{
 			$categories = explode(',', $categories);
+		}
+
+		if(empty($orderby))
+		{
+			$orderby = null;
 		}
 
 		if(Request::ajax())
@@ -58,11 +65,11 @@ class ProjectController extends Controller {
       return Response::json($projects, 200);
     }
 
-		$projects = $this->projectRepository->projects($search, $categories);
+		$projects = $this->projectRepository->projects($search, $categories, $orderby);
 
 		$categoryList = $this->categorieRepository->categoriesWithProjects();
 
-		return view('projects.index')->with(compact('projects', 'categoryList', 'search', 'categories'));
+		return view('projects.index')->with(compact('projects', 'categoryList', 'search', 'categories', 'orderby'));
 	}
 
 	public function create()
