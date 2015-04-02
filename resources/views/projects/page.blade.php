@@ -19,7 +19,7 @@
 
 @include('partials.alerts')
 
-{!! Form::open(['url' => route('page.save')]) !!}
+{!! Form::open(['url' => route('page.save', ['id' => $project->id, 'section_id' => $section->id]), 'id' => 'page-form']) !!}
 
 <div class="row">
   <div class="col-md-12 text-right">

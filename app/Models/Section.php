@@ -13,4 +13,9 @@ class Section extends Model {
     return $this->belongsTo('App\Models\Project');
   }
 
+  public function pages()
+  {
+    return $this->hasMany('App\Models\Page');
+  }
+
 }

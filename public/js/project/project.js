@@ -11,6 +11,7 @@
         $preview = $('#preview'),
         $tornarMeLider = $('#tornarMeLider'),
         $projectForm = $('#project-form'),
+        $pageForm = $('#page-form'),
         $filtroCategories = $('#filtroCategories'),
         $filtro = $('#filtro'),
         url = window.location;
@@ -22,6 +23,11 @@
     });
 
     $projectForm.on('submit', function()
+    {
+      $(this).find('.dave-btn-salvar').button('loading');
+    });
+
+    $pageForm.on('submit', function()
     {
       $(this).find('.dave-btn-salvar').button('loading');
     });
