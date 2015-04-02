@@ -11,26 +11,50 @@ class ProjectRepository implements IProjectRepository
   {
     $result = null;
 
+    /**
+    * As buscas não são complementares: ou se filtra por termo ou por categoria(s)
+    * mas nunca por ambos.
+    */
+
     if($paginate)
     {
+      /**
+      * Se existe um termo de busca, retorna a lista filtrada pelo termo
+      */
       if(!is_null($search) && !empty($search))
       {
         return Project::where('name', 'like', "%$search%")->paginate(env('PAGINATION_ITEMS', 10));
       }
 
+      /**
+      * Se existe uma ou mais categoria(s), retorna a lista filtrada por ela(s)
+      */
       if(!is_null($categories) && !empty($categories))
       {
+        /**
+        * Compila-se uma lista distinta projetos associados às caregorias informadas
+        */
         $projectsFromCategories = DB::table('category_project')->whereIn('category_id', $categories)->distinct()->get(['project_id']);
 
         $projectIds = [];
 
+        /**
+        * Compila-se uma lista apenas com os IDs dos projetos pois
+        * a lista acima possui array com objetos: [0 => StdClass('project_id': 1)]
+        */
         foreach ($projectsFromCategories as $value) {
           $projectIds[] = $value->project_id;
         }
 
+        /**
+        * Por fim retorna-se a lista dos projetos
+        */
         return Project::whereIn('id', $projectIds)->paginate(env('PAGINATION_ITEMS', 10));
       }
 
+      /**
+      * Caso nem exista nem termo de busca nem categorias, retorna-se a lista completa, paginada.
+      */
       return Project::paginate(env('PAGINATION_ITEMS', 10));
     }
 

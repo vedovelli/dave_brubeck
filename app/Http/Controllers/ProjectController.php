@@ -130,6 +130,7 @@ class ProjectController extends Controller {
 	public function section($id)
 	{
 		$this->sectionRepository->store($id, Request::all());
+
 		return redirect()->route('project.show', ['id' => $id])->with('success', 'Seção de conteúdo criada com sucesso!');
 	}
 
