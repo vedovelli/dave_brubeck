@@ -7,12 +7,19 @@
     var $categories = $('#categories'),
         $owner = $('#owner'),
         $members = $('#members'),
+        $content = $('#content'),
+        $preview = $('#preview'),
         $tornarMeLider = $('#tornarMeLider'),
         $projectForm = $('#project-form'),
         $filtroCategories = $('#filtroCategories'),
         $filtro = $('#filtro'),
         url = window.location;
 
+
+    $content.on('keyup', function()
+    {
+      $preview.html(markdown.toHTML(this.value))  ;
+    });
 
     $projectForm.on('submit', function()
     {

@@ -71,10 +71,7 @@
     @endif
   </div>
   <div class="col-md-6 text-right">
-    <button class="btn btn-success dave-btn-salvar" type="submit" data-loading-text="Salvando...">
-      <i class="fa fa-save"></i>
-      Salvar
-    </button>
+    @include('partials.daveBtnSalvar')
   </div>
 </div>
 
