@@ -6,7 +6,7 @@ class Section extends Model {
 
 	protected $fillable = ['name'];
 
-  protected $touches = ['project'];
+  protected $touches = ['project', 'pages'];
 
   public function project()
   {

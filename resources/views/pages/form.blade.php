@@ -30,7 +30,6 @@
   @else
     Nova Página
   @endif
-  <small>{!! $project->name !!}</small>
 </h1>
 
 @include('partials.alerts')
