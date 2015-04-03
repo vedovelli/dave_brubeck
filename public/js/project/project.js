@@ -5,8 +5,6 @@
   $(document).ready(function()
   {
 
-window.console.log(window);
-
     var $categories = $('#categories'),
         $owner = $('#owner'),
         $members = $('#members'),
@@ -22,8 +20,10 @@ window.console.log(window);
 
     $content.on('keyup', function()
     {
-      $preview.html(markdown.toHTML(this.value))  ;
+      $preview.html(markdown.toHTML(this.value));
     });
+
+    $preview.html(markdown.toHTML($content.val()));
 
     $projectForm.on('submit', function()
     {

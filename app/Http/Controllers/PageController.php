@@ -41,10 +41,51 @@ class PageController extends Controller
 
     $user_id = Auth::getUser()->id;
 
+    extract(Request::all());
+
+    /**
+    * user_id é obtido no usuário logado
+    * section_id é passado como parâmetro no método store()
+    * title e content são obtidos ao extrair Request::all()
+    */
     $page = $this->pageRepository->store(compact('user_id', 'section_id', 'title', 'content'));
 
-    return redirect()->back()->with('success', 'Página salva com sucesso');
+    $page_id = $page->id;
 
+    return redirect()->route('page.edit', compact('project_id', 'section_id', 'page_id'))->with('success', 'Página salva com sucesso');
+  }
+
+  public function edit($project_id, $section_id, $page_id)
+  {
+    $parents = $this->getParents(compact('project_id', 'section_id'));
+
+    extract($parents);
+
+    $page = $this->pageRepository->show($page_id);
+
+    return view('projects.page')->with(compact('project', 'section', 'page'));
+  }
+
+  public function update($project_id, $section_id, $page_id)
+  {
+
+    if(!$this->validator->passes())
+    {
+      return redirect()->back()->withError($this->validator->getErrors());
+    }
+
+    extract(Request::all());
+
+    $page = $this->pageRepository->update($page_id, compact('project_id', 'section_id', 'title', 'content'));
+
+    return redirect()->back()->with('success', 'Página atualizada com sucesso!');
+  }
+
+  public function remove($project_id, $page_id)
+  {
+    $this->pageRepository->destroy($page_id);
+
+    return redirect('project.show', ['id' => $project_id])->with('success', 'Página removida com sucesso');
   }
 
   protected function getParents($ids)

@@ -2,14 +2,17 @@
 {
   $(document).ready(function()
   {
-    var localEmail = localStorage.getItem('dave.user.email');
+    var
+      localEmail = localStorage.getItem('dave.user.email'),
+      $email = $('#email'),
+      $password = $('#password');
 
     if(localEmail !== null && localEmail !== '')
     {
-      $('#email').val(localEmail);
-      $('#password').focus();
+      $email.val(localEmail);
+      $password.focus();
     } else {
-      $('#email').focus();
+      $email.focus();
     }
 
   });

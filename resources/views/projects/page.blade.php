@@ -19,8 +19,11 @@
 
 @include('partials.alerts')
 
+@if($page != null)
+{!! Form::open(['url' => route('page.update', ['id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]), 'id' => 'page-form']) !!}
+@else
 {!! Form::open(['url' => route('page.save', ['id' => $project->id, 'section_id' => $section->id]), 'id' => 'page-form']) !!}
-
+@endif
 <div class="row">
   <div class="col-md-12 text-right">
     @include('partials.daveBtnSalvar', ['label' => 'Salvar Página'])
@@ -29,14 +32,16 @@
 
 <div class="form-group">
   <label for="title" class="control-label">Título da Página</label>
-  <input class="form-control" type="text" name="title" value="" id="title">
+  <input class="form-control" type="text" name="title" value="{!! $page != null ? $page->title : old('title') !!}" id="title">
 </div>
 
 <div class="row">
   <div class="col-md-6">
     <fieldset>
       <legend>Conteúdo da página</legend>
-      <textarea name="content" class="form-control" id="content" rows="15"></textarea>
+      <textarea name="content" class="form-control" id="content" rows="15">
+        {!! $page != null ? $page->content : old('content') !!}
+      </textarea>
     </fieldset>
   </div>
   <div class="col-md-6">
@@ -48,6 +53,12 @@
 </div>
 
 {!! Form::close() !!}
+
+<p></p>
+
+<p class="text-right">
+  <a class="text-danger" href="{!! route('page.remove', ['project_id' => $project->id, 'page_id' => $page->id]) !!}">[remover página]</a>
+</p>
 
 @section('scripts')
 @parent

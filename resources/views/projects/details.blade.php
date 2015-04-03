@@ -2,7 +2,7 @@
 
 @section('content')
 
-{!! Form::open(['url' => route('project.section', ['id' => $project->id])]) !!}
+{!! Form::open(['url' => route('section', ['id' => $project->id])]) !!}
 @include('partials.modal', $modalConfig)
 {!! Form::close() !!}
 
@@ -51,7 +51,7 @@
     @foreach($project->sections as $section)
     <h4>
       {!! $section->name !!}
-      <small><a href="{!! route('page', ['id'=> $project->id, 'section_id'=> $section->id]) !!}">[criar página]</a></small>
+      <small><a href="{!! route('page.create', ['id'=> $project->id, 'section_id'=> $section->id]) !!}">[criar página]</a></small>
     </h4>
     <hr>
     @endforeach

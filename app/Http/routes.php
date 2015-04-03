@@ -46,24 +46,30 @@ Route::group(['middleware' => 'auth'], function()
   */
   Route::group(['prefix' => 'projetos'], function()
   {
+    /**
+    * Project
+    */
     Route::get('', ['as' => 'project.index', 'uses' => 'ProjectController@index']);
+    Route::get('{id}/detalhes', ['as' => 'project.show', 'uses' => 'ProjectController@show']);
     Route::get('novo', ['as' => 'project.create', 'uses' => 'ProjectController@create']);
     Route::post('salvar', ['as' => 'project.store', 'uses' => 'ProjectController@store']);
     Route::get('{id}/editar', ['as' => 'project.edit', 'uses' => 'ProjectController@edit']);
     Route::post('{id}/atualizar', ['as' => 'project.update', 'uses' => 'ProjectController@update']);
-    Route::post('{id}/secao', ['as' => 'project.section', 'uses' => 'ProjectController@section']);
-    Route::get('{id}/secao/{section_id}/pagina', ['as' => 'page', 'uses' => 'PageController@create']);
-    Route::post('{id}/secao/{section_id}/pagina/salvar', ['as' => 'page.save', 'uses' => 'PageController@store']);
-    Route::get('{id}', ['as' => 'project.show', 'uses' => 'ProjectController@show']);
-  });
 
-  /**
-  * Seções de Conteúdo
-  */
-  // Route::group(['prefix' => 'secao', function()
-  // {
-  //   Route::post('pagina', ['as' => 'page.store', 'uses' => '',]);
-  // }]);
+    /**
+    * Section
+    */
+    Route::post('{id}/secao', ['as' => 'section', 'uses' => 'ProjectController@section']);
+
+    /**
+    * Page
+    */
+    Route::get('{id}/secao/{section_id}/pagina', ['as' => 'page.create', 'uses' => 'PageController@create']);
+    Route::post('{id}/secao/{section_id}/pagina/salvar', ['as' => 'page.save', 'uses' => 'PageController@store']);
+    Route::get('{project_id}/secao/{section_id}/pagina/{page_id}/editar', ['as' => 'page.edit', 'uses' => 'PageController@edit']);
+    Route::post('{project_id}/secao/{section_id}/pagina/{page_id}/atualizar', ['as' => 'page.update', 'uses' => 'PageController@update']);
+    Route::get('{project_id}/pagina/{page_id}/remover', ['as' => 'page.remove', 'uses' => 'PageController@remove']);
+  });
 
   /**
   * Usuarios
@@ -71,7 +77,7 @@ Route::group(['middleware' => 'auth'], function()
   Route::group(['prefix' => 'usuarios'], function()
   {
     Route::get('', ['as' => 'user.index', 'uses' => 'UserController@index']);
-    Route::get('{id}', ['as' => 'user.show', 'uses' => 'UserController@show']);
+    Route::get('{id}/detalhes', ['as' => 'user.show', 'uses' => 'UserController@show']);
     Route::post('store', ['as' => 'user.store', 'uses' => 'UserController@store']);
     Route::get('{id}/editar', ['as' => 'user.edit', 'uses' => 'UserController@edit']);
     Route::post('{id}/atualizar', ['as' => 'user.update', 'uses' => 'UserController@update']);
