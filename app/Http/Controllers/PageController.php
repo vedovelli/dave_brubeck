@@ -29,7 +29,9 @@ class PageController extends Controller
 
     extract($parents);
 
-    return view('projects.page')->with(compact('project', 'section'));
+    $page = null;
+
+    return view('pages.form')->with(compact('project', 'section', 'page'));
   }
 
   public function store($project_id, $section_id)
@@ -63,7 +65,7 @@ class PageController extends Controller
 
     $page = $this->pageRepository->show($page_id);
 
-    return view('projects.page')->with(compact('project', 'section', 'page'));
+    return view('pages.form')->with(compact('project', 'section', 'page'));
   }
 
   public function update($project_id, $section_id, $page_id)
@@ -85,7 +87,7 @@ class PageController extends Controller
   {
     $this->pageRepository->destroy($page_id);
 
-    return redirect('project.show', ['id' => $project_id])->with('success', 'Página removida com sucesso');
+    return redirect()->route('project.show', ['id' => $project_id])->with('success', 'Página removida com sucesso');
   }
 
   protected function getParents($ids)

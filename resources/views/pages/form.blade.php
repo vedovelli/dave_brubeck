@@ -8,12 +8,16 @@
     <li><a href="{!! route('project.index') !!}">Projetos</a></li>
     <li><a href="{!! route('project.show', ['id' => $project->id]) !!}">{{$project->name}}</a></li>
     <li class="active">{!! $section->name !!}</li>
+    @if($page != null)
+    <li class="active">{!! $page->title !!}</li>
+    @else
     <li class="active">Nova Página</li>
+    @endif
   </ol>
 </p>
 
 <h1 class="page-header">
-  <i class="fa fa-clipboard"></i>
+  <i class="fa fa-file-code-o"></i>
   Nova Página <small>{!! $project->name !!}</small>
 </h1>
 
@@ -25,23 +29,26 @@
 {!! Form::open(['url' => route('page.save', ['id' => $project->id, 'section_id' => $section->id]), 'id' => 'page-form']) !!}
 @endif
 <div class="row">
-  <div class="col-md-12 text-right">
-    @include('partials.daveBtnSalvar', ['label' => 'Salvar Página'])
+  <div class="col-md-6">
+    <h4><i class="fa fa-folder-open"></i> {!! $section->name !!}</h4>
+  </div>
+  <div class="col-md-6 text-right">
+    @if($page != null)
+    <a class="text-danger" id="link-remover-pagina" href="{!! route('page.remove', ['project_id' => $project->id, 'page_id' => $page->id]) !!}">[remover página]</a>
+    @endif
   </div>
 </div>
 
 <div class="form-group">
   <label for="title" class="control-label">Título da Página</label>
-  <input class="form-control" type="text" name="title" value="{!! $page != null ? $page->title : old('title') !!}" id="title">
+  <input class="form-control" type="text" name="title" value="{!! $page != null ? $page->title : old('title') !!}" id="title" autofocus>
 </div>
 
 <div class="row">
   <div class="col-md-6">
     <fieldset>
       <legend>Conteúdo da página</legend>
-      <textarea name="content" class="form-control" id="content" rows="15">
-        {!! $page != null ? $page->content : old('content') !!}
-      </textarea>
+      <textarea name="content" class="form-control" id="content" rows="15">{!! $page != null ? $page->content : old('content') !!}</textarea>
     </fieldset>
   </div>
   <div class="col-md-6">
@@ -52,13 +59,22 @@
   </div>
 </div>
 
+
+<p>&nbsp;</p>
+
+<div class="row" style="margin-bottom: 65px;">
+  <div class="col-md-6">
+    <a href="{!! route('project.show', ['id' => $project->id]) !!}" class="btn btn-default">
+      <i class="fa fa-arrow-left"></i>
+      voltar
+    </a>
+  </div>
+  <div class="col-md-6 text-right">
+    @include('partials.daveBtnSalvar', ['label' => 'Salvar Página'])
+  </div>
+</div>
+
 {!! Form::close() !!}
-
-<p></p>
-
-<p class="text-right">
-  <a class="text-danger" href="{!! route('page.remove', ['project_id' => $project->id, 'page_id' => $page->id]) !!}">[remover página]</a>
-</p>
 
 @section('scripts')
 @parent

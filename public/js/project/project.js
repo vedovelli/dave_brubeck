@@ -1,3 +1,6 @@
+/**
+* TODO - extrair daqui o que for de Page e criar o page.js
+*/
 ;(function($)
 {
   'use strict';
@@ -16,6 +19,7 @@
         $filtroCategories = $('#filtroCategories'),
         $filtro = $('#filtro'),
         $sectionModal = $('#modalSection'),
+        $remover = $('#link-remover-pagina'),
         url = window.location;
 
     $content.on('keyup', function()
@@ -43,6 +47,18 @@
     $sectionModal.on('hidden.bs.modal', function()
     {
       window.location.hash = '';
+    });
+
+    $remover.on('click', function(event)
+    {
+      event.preventDefault();
+
+      var confirm = window.confirm('Tem certeza que deseja remover a página?');
+
+      if(confirm)
+      {
+        window.location = $(this).attr('href');
+      }
     });
 
     $(window).on('hashchange', function(event)

@@ -50,10 +50,21 @@
 
     @foreach($project->sections as $section)
     <h4>
+      <i class="fa fa-folder-open"></i>
       {!! $section->name !!}
       <small><a href="{!! route('page.create', ['id'=> $project->id, 'section_id'=> $section->id]) !!}">[criar página]</a></small>
     </h4>
     <hr>
+      <ul style="margin-bottom: 25px; list-style: none;">
+      @foreach($section->pages as $page)
+      <li><h5>
+        <i class="fa fa-file-code-o"></i>
+        <a href="{!! route('page.edit', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+          {!! $page->title !!}
+        </a>
+      </h5></li>
+      @endforeach
+      </ul>
     @endforeach
 
   </div>

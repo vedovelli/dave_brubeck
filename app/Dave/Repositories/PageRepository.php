@@ -30,6 +30,8 @@ class PageRepository implements IPageRepository
 
   public function store($request)
   {
+    $request['content'] = trim($request['content']);
+
     $page = new Page();
     $page->fill($request);
 
