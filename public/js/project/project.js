@@ -4,6 +4,9 @@
 
   $(document).ready(function()
   {
+
+window.console.log(window);
+
     var $categories = $('#categories'),
         $owner = $('#owner'),
         $members = $('#members'),
@@ -14,8 +17,8 @@
         $pageForm = $('#page-form'),
         $filtroCategories = $('#filtroCategories'),
         $filtro = $('#filtro'),
+        $sectionModal = $('#modalSection'),
         url = window.location;
-
 
     $content.on('keyup', function()
     {
@@ -32,14 +35,22 @@
       $(this).find('.dave-btn-salvar').button('loading');
     });
 
-    if(url.hash === '#secao')
+    $sectionModal.on('shown.bs.modal', function()
     {
-      $('#modalSection').modal('show');
-    }
+      $(this).find('#section').focus();
+    });
 
-    $('#modalSection').on('hidden.bs.modal', function()
+    $sectionModal.on('hidden.bs.modal', function()
     {
-      // TODO pensar numa maneira de zerar o #hash
+      window.location.hash = '';
+    });
+
+    $(window).on('hashchange', function(event)
+    {
+      if(window.location.hash == '#secao')
+      {
+        $sectionModal.modal('show');
+      }
     });
 
     $filtro.on('change', function()

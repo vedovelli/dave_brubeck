@@ -6,6 +6,16 @@
 
     var $buscaRapida = $('.dave-busca-rapida').find('input[type="text"]');
 
+    var localEmail = localStorage.getItem('dave.user.email');
+
+    if(localEmail === null)
+    {
+      $.getJSON('/api/usuario-logado', function(data)
+      {
+        localStorage.setItem('dave.user.email', data.email);
+      });
+    }
+
     // por enquanto funcionando com busca de categorias. Aguardando funcionalidade de projetos ficar pronta.
     $buscaRapida.select2({
       minimumInputLength: 3,

@@ -43,7 +43,7 @@
       @endforeach
     </div>
     <div class="text-right">
-      <a href="{!!route('project.show', ['id' => $project->id, '#secao'])!!}">[criar seção]</a>
+      <a href="#secao" id="modalTrigger">[criar seção]</a>
     </div>
 
     <div class="row"></div>

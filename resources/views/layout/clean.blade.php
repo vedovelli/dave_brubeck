@@ -27,7 +27,8 @@
 	<!-- Scripts -->
 	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<script src="/js/app.js"></script>
+	{{--<script src="/js/app.js"></script>--}}
+	<script src="/js/auth/login.js"></script>
 
 </body>
 </html>

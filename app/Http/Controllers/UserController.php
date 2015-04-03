@@ -2,6 +2,7 @@
 
 use \Auth as Auth;
 use \Request as Request;
+use \Response as Response;
 
 use \App\Dave\Repositories\IUserRepository as UserRepository;
 use \App\Dave\Repositories\IProjectRepository as ProjectRepository;
@@ -172,6 +173,11 @@ class UserController extends Controller {
     Auth::logout();
 
     return redirect('auth/login')->with('success', 'Senha alterada com sucesso!');
+  }
+
+  public function current()
+  {
+    return Response::json(Auth::getUser()->toArray(), 200);
   }
 
 }
