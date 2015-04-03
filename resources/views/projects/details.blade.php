@@ -88,6 +88,7 @@
 
 @section('scripts')
 @parent
+<script src="/bower_components/markdown/lib/markdown.js"></script>
 <script src="/js/project/project.js"></script>
 @endsection
 

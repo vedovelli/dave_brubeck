@@ -27,7 +27,10 @@
       $preview.html(markdown.toHTML(this.value));
     });
 
-    $preview.html(markdown.toHTML($content.val()));
+    if($content.length)
+    {
+      $preview.html(markdown.toHTML($content.val()));
+    }
 
     $projectForm.on('submit', function()
     {
