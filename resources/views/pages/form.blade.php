@@ -9,7 +9,12 @@
     <li><a href="{!! route('project.show', ['id' => $project->id]) !!}">{{$project->name}}</a></li>
     <li class="active">{!! $section->name !!}</li>
     @if($page != null)
-    <li class="active">{!! $page->title !!}</li>
+    <li class="active">
+      <a href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+        {!! $page->title !!}
+      </a>
+    </li>
+    <li class="active">Editar</li>
     @else
     <li class="active">Nova Página</li>
     @endif
@@ -18,7 +23,14 @@
 
 <h1 class="page-header">
   <i class="fa fa-file-code-o"></i>
-  Nova Página <small>{!! $project->name !!}</small>
+  @if($page != null)
+  <a href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+    {!! $page->title !!}
+  </a>
+  @else
+    Nova Página
+  @endif
+  <small>{!! $project->name !!}</small>
 </h1>
 
 @include('partials.alerts')
@@ -64,10 +76,17 @@
 
 <div class="row" style="margin-bottom: 65px;">
   <div class="col-md-6">
-    <a href="{!! route('project.show', ['id' => $project->id]) !!}" class="btn btn-default">
-      <i class="fa fa-arrow-left"></i>
-      voltar
-    </a>
+    @if($page != null)
+      <a class="btn btn-default" href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+        <i class="fa fa-arrow-left"></i>
+        voltar
+      </a>
+    @else
+      <a class="btn btn-default" href="{!! route('project.show', ['project_id' => $project->id]) !!}">
+        <i class="fa fa-arrow-left"></i>
+        voltar
+      </a>
+    @endif
   </div>
   <div class="col-md-6 text-right">
     @include('partials.daveBtnSalvar', ['label' => 'Salvar Página'])

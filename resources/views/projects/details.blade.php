@@ -59,7 +59,7 @@
       @foreach($section->pages as $page)
       <li><h5>
         <i class="fa fa-file-code-o"></i>
-        <a href="{!! route('page.edit', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+        <a href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
           {!! $page->title !!}
         </a>
       </h5></li>

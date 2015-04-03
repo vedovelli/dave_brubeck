@@ -23,6 +23,17 @@ class PageController extends Controller
     $this->validator = $validator;
   }
 
+  public function show($project_id, $section_id, $page_id)
+  {
+    $parents = $this->getParents(compact('project_id', 'section_id'));
+
+    extract($parents);
+
+    $page = $this->pageRepository->show($page_id);
+
+    return view('pages.page')->with(compact('project', 'section', 'page'));
+  }
+
   public function create($project_id, $section_id)
   {
     $parents = $this->getParents(compact('project_id', 'section_id'));
