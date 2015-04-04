@@ -42,6 +42,17 @@
       $(this).find('.dave-btn-salvar').button('loading');
     });
 
+    /**
+    * CMD + Enter para salvar
+    */
+    $content.on('keydown', function(event)
+    {
+      if(event.keyCode == 13 && event.metaKey)
+      {
+        $pageForm.submit();
+      }
+    });
+
     $sectionModal.on('shown.bs.modal', function()
     {
       $(this).find('#section').focus();

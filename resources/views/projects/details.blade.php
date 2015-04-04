@@ -23,7 +23,7 @@
 
 <div class="row">
   <div class="col-md-6">
-    <a href="{!! route('project.edit', ['id' => $project->id]) !!}"><i class="fa fa-pencil"></i> editar projeto</a>
+    <a href="{!! route('project.edit', ['id' => $project->id]) !!}"><i class="fa fa-pencil"></i> editar</a>
   </div>
   <div class="col-md-6 text-right">
     <small>Última atualização: {!!Carbon::parse($project->updated_at)->diffForHumans()!!}</small>
@@ -43,7 +43,7 @@
       @endforeach
     </div>
     <div class="text-right">
-      <a href="#secao" id="modalTrigger"><i class="fa fa-plus"></i> criar seção</a>
+      <a href="#secao" id="modalTrigger"><i class="fa fa-plus"></i> seção</a>
     </div>
 
     <div class="row"></div>
