@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use \Auth as Auth;
+
 use \Request as Request;
 use \Response as Response;
 

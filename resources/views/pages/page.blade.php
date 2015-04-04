@@ -31,7 +31,7 @@
 
 <div class="row" style="margin-bottom: 65px;">
   <div class="col-md-12">
-    <a href="{!! route('project.show', ['id' => $project->id]) !!}" class="btn btn-default">
+    <a href="{!! route('page.edit', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}" class="btn btn-default">
       <i class="fa fa-arrow-left"></i>
       voltar
     </a>

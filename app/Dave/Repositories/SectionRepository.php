@@ -52,6 +52,10 @@ class SectionRepository implements ISectionRepository
   public function destroy($id)
   {
     $section = Section::find($id);
+    if(count($section->pages) > 0)
+    {
+      return false;
+    }
     $section->delete();
     return true;
   }

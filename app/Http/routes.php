@@ -59,7 +59,8 @@ Route::group(['middleware' => 'auth'], function()
     /**
     * Section
     */
-    Route::post('{id}/secao', ['as' => 'section', 'uses' => 'ProjectController@section']);
+    Route::post('{id}/secao', ['as' => 'section', 'uses' => 'SectionController@store']);
+    Route::get('{id}/secao/{section_id}/remover', ['as' => 'section.remove', 'uses' => 'SectionController@destroy']);
 
     /**
     * Page

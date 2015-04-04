@@ -1,15 +1,13 @@
 <?php namespace App\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
 use \Request as Request;
 use \Response as Response;
+
+use App\Http\Controllers\Controller;
 
 use App\Dave\Repositories\ICategoryRepository as Categories;
 use App\Dave\Repositories\IUserRepository as Users;
 use App\Dave\Repositories\IProjectRepository as Projects;
-use App\Dave\Repositories\ISectionRepository as Sections;
 
 use \App\Dave\Services\Validators\ProjectValidator as Validator;
 
@@ -18,7 +16,6 @@ class ProjectController extends Controller {
 	protected $projectRepository;
 	protected $categorieRepository;
 	protected $userRepository;
-	protected $sectionRepository;
 	protected $validator;
 
 	/**
@@ -28,13 +25,11 @@ class ProjectController extends Controller {
 		Projects $projectRepository,
 		Categories $categorieRepository,
 		Users $userRepository,
-		Sections $sectionRepository,
 		Validator $validator
 	){
 		$this->projectRepository = $projectRepository;
 		$this->categorieRepository = $categorieRepository;
 		$this->userRepository = $userRepository;
-		$this->sectionRepository = $sectionRepository;
 		$this->validator = $validator;
 	}
 
@@ -132,13 +127,6 @@ class ProjectController extends Controller {
 
 	public function destroy($id)
 	{
-	}
-
-	public function section($id)
-	{
-		$this->sectionRepository->store($id, Request::all());
-
-		return redirect()->route('project.show', ['id' => $id])->with('success', 'Seção de conteúdo criada com sucesso!');
 	}
 
 	public function projectsForSelect()

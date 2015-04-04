@@ -50,6 +50,11 @@
 
     @foreach($project->sections as $section)
     <h4>
+      @if(count($section->pages) == 0)
+      <small>
+        <a href="{!! route('section.remove', ['id' => $project->id, 'section_id' => $section->id]) !!}" class="text-danger" title="Remover {!! $section->name !!}"><i class="fa fa-remove"></i></a>
+      </small>
+      @endif
       <i class="fa fa-folder-open"></i>
       {!! $section->name !!}
       <small><a href="{!! route('page.create', ['id'=> $project->id, 'section_id'=> $section->id]) !!}"><i class="fa fa-plus"></i>   página</a></small>
@@ -59,7 +64,7 @@
       @foreach($section->pages as $page)
       <li><h5>
         <i class="fa fa-file-code-o"></i>
-        <a href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+        <a href="{!! route('page.edit', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
           {!! $page->title !!}
         </a>
       </h5></li>
