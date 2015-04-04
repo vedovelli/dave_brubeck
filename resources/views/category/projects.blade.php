@@ -12,7 +12,8 @@
   </p>
 
   <h1 class="page-header">
-    {!! $category->name !!} <small>Projetos da Categoria</small>
+    {!! $category->name !!} <small><br>
+    <em>projetos da categoria</em></small>
   </h1>
 
   @if(count($projects) > 0)
