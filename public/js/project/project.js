@@ -11,47 +11,17 @@
     var $categories = $('#categories'),
         $owner = $('#owner'),
         $members = $('#members'),
-        $content = $('#content'),
-        $preview = $('#preview'),
         $tornarMeLider = $('#tornarMeLider'),
         $projectForm = $('#project-form'),
-        $pageForm = $('#page-form'),
         $filtroCategories = $('#filtroCategories'),
         $filtro = $('#filtro'),
         $description = $('#description'),
         $sectionModal = $('#modalSection'),
-        $remover = $('#link-remover-pagina'),
         url = window.location;
-
-    $content.on('keyup', function()
-    {
-      $preview.html(markdown.toHTML(this.value));
-    });
-
-    if($content.length)
-    {
-      $preview.html(markdown.toHTML($content.val()));
-    }
 
     $projectForm.on('submit', function()
     {
       $(this).find('.dave-btn-salvar').button('loading');
-    });
-
-    $pageForm.on('submit', function()
-    {
-      $(this).find('.dave-btn-salvar').button('loading');
-    });
-
-    /**
-    * CMD + Enter para salvar
-    */
-    $content.on('keydown', function(event)
-    {
-      if(event.keyCode == 13 && event.metaKey)
-      {
-        $pageForm.submit();
-      }
     });
 
     /**
@@ -73,18 +43,6 @@
     $sectionModal.on('hidden.bs.modal', function()
     {
       window.location.hash = '';
-    });
-
-    $remover.on('click', function(event)
-    {
-      event.preventDefault();
-
-      var confirm = window.confirm('Tem certeza que deseja remover a página?');
-
-      if(confirm)
-      {
-        window.location = $(this).attr('href');
-      }
     });
 
     $(window).on('hashchange', function(event)

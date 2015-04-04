@@ -75,17 +75,10 @@
 
 <div class="row" style="margin-bottom: 65px;">
   <div class="col-md-6">
-    @if($page != null)
-      <a class="btn btn-default" href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
-        <i class="fa fa-arrow-left"></i>
-        voltar
-      </a>
-    @else
-      <a class="btn btn-default" href="{!! route('project.show', ['project_id' => $project->id]) !!}">
-        <i class="fa fa-arrow-left"></i>
-        voltar
-      </a>
-    @endif
+    <a class="btn btn-default" href="{!! route('project.show', ['project_id' => $project->id]) !!}">
+      <i class="fa fa-arrow-left"></i>
+      voltar
+    </a>
   </div>
   <div class="col-md-6 text-right">
     @include('partials.daveBtnSalvar', ['label' => 'Salvar Página'])
@@ -97,7 +90,7 @@
 @section('scripts')
 @parent
 <script src="/bower_components/markdown/lib/markdown.js"></script>
-<script src="/js/project/project.js"></script>
+<script src="/js/page/page.js"></script>
 @endsection
 
 @endsection
