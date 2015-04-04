@@ -18,6 +18,7 @@
         $pageForm = $('#page-form'),
         $filtroCategories = $('#filtroCategories'),
         $filtro = $('#filtro'),
+        $description = $('#description'),
         $sectionModal = $('#modalSection'),
         $remover = $('#link-remover-pagina'),
         url = window.location;
@@ -50,6 +51,17 @@
       if(event.keyCode == 13 && event.metaKey)
       {
         $pageForm.submit();
+      }
+    });
+
+    /**
+    * CMD + Enter para salvar
+    */
+    $description.on('keydown', function(event)
+    {
+      if(event.keyCode == 13 && event.metaKey)
+      {
+        $projectForm.submit();
       }
     });
 
