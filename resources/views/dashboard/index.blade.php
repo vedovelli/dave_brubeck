@@ -1,4 +1,4 @@
-@extends('layout.sbadmin')
+@extends('layout.sbadmin', ['feature' => 'dashboard'])
 
 
 @section('content')

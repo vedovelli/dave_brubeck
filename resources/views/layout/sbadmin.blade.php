@@ -69,7 +69,7 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
-            @include('layout.partials.sidemenu')
+            @include('layout.partials.sidemenu', ['feature' => $feature])
             </div>
             <!-- /.navbar-static-side -->
         </nav>

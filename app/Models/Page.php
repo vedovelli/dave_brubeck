@@ -6,6 +6,8 @@ class Page extends Model
 {
   protected $fillable = ['title', 'content'];
 
+  protected $touches = ['section'];
+
   public function section()
   {
     return $this->belongsTo('App\Models\Section', 'section_id');
