@@ -90,6 +90,23 @@ class ProjectRepository implements IProjectRepository
     return Project::whereIn('id', $wherein)->get();
   }
 
+  public function projectsForSelect()
+  {
+    $projecs = [];
+
+    $collection = Project::all();
+
+    $i = 0;
+
+    foreach ($collection as $value) {
+      $projects[$i]['id'] = $value->id;
+      $projects[$i]['text'] = $value->name;
+      $i++;
+    }
+
+    return $projects;
+  }
+
   public function show($id)
   {
     return Project::find($id);

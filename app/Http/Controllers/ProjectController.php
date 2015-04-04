@@ -141,6 +141,11 @@ class ProjectController extends Controller {
 		return redirect()->route('project.show', ['id' => $id])->with('success', 'Seção de conteúdo criada com sucesso!');
 	}
 
+	public function projectsForSelect()
+	{
+		return Response::json($this->projectRepository->projectsForSelect(), 200);
+	}
+
 	protected function returnProjectData($id = null)
 	{
 

@@ -16,7 +16,6 @@
       });
     }
 
-    // por enquanto funcionando com busca de categorias. Aguardando funcionalidade de projetos ficar pronta.
     $buscaRapida.select2({
       minimumInputLength: 3,
       ajax: {
@@ -24,16 +23,14 @@
         dataType: 'json',
         quietMillis: 250,
         data: function (term) {
-          return {
-              search: term
-          };
+          return { search: term };
         },
         results: function (data, page) {
-            return { results: data };
+          return { results: data };
         }
       },
       formatResult: function (project) {
-        var markup = '<h4 class="text-left"><i class="fa fa-clipboard"></i> '+project.name+'</h4>';
+        var markup = '<h4 class="text-left"><i class="fa fa-clipboard"></i> '+project.text+'</h4>';
         return markup;
       },
       formatSelection: function (project) {
@@ -41,7 +38,7 @@
       }
     }).on('change', function()
     {
-      window.location = '/projetos/'+this.value;
+      window.location = '/projetos/'+this.value+'/detalhes';
     });
   });
 })(window.jQuery);
