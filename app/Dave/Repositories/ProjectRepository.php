@@ -146,6 +146,31 @@ class ProjectRepository implements IProjectRepository
     $project = Project::find($id);
     $project->fill($request);
     $project->save();
+
+    /**
+    * Membros
+    */
+    foreach ($project->members as $member) {
+      $project->members()->detach($member);
+    }
+
+    foreach ($request['members'] as $user_id) {
+      $user = User::find($user_id);
+      $project->members()->save($user);
+    }
+
+    /**
+    * Categorias
+    */
+    foreach ($project->categories as $category) {
+      $project->categories()->detach($category);
+    }
+
+    foreach ($request['categories'] as $category_id) {
+      $category = Category::find($category_id);
+      $project->categories()->save($category);
+    }
+
     return $project;
   }
 
