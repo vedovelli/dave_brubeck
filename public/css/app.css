@@ -2,6 +2,11 @@
 * Dave Brubeck CSS
 */
 
+form
+{
+    margin-bottom: 20px;
+}
+
 .select2
 {
     display: none;

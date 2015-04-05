@@ -3,7 +3,9 @@
 @section('content')
 <h1 class="page-header">
   <i class="fa fa-clipboard"></i>
-  Projetos <small><a href="{!!route('project.create')!!}">[novo]</a></small>
+  Projetos <small><a href="{!!route('project.create')!!}">
+    <i class="fa fa-plus"></i> projeto
+  </a></small>
   {{-- search --}}
   <div style="width: 400px; font-weight: normal;" class="pull-right">
     @include('partials.search', ['search' => $search, 'route' => route('project.index')])

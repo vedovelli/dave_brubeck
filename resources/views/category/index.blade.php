@@ -9,7 +9,7 @@
 @include('partials.alerts')
 
 <div class="row">
-  <div class="col-md-6 text-center">
+  <div class="col-md-6">
 
     {{-- Search --}}
     <div class="well">
@@ -31,18 +31,19 @@
         <tr>
           <td width="1%" nowrap>{{$category->id}}</td>
           <td>{{$category->name}}</td>
-          <td width="10%">
+          <td width="10%" class="text-center">
             <a href="{!! route('category.projects', ['id' => $category->id]) !!}">{!!count($category->projects)!!}</a>
           </td>
-          <td width="1%" nowrap>[<a href="{{route('category.edit', ['id' => $category->id, 'page' => $categories->currentPage(), 'search' => $search])}}">editar</a>] [<a href="{{route('category.destroy', ['id' => $category->id, 'page' => $categories->currentPage()])}}" class="text-danger">excluir</a>]</td>
+          <td width="1%" nowrap><a href="{{route('category.edit', ['id' => $category->id, 'page' => $categories->currentPage(), 'search' => $search])}}">editar</a> | <a href="{{route('category.destroy', ['id' => $category->id, 'page' => $categories->currentPage()])}}" class="text-danger">excluir</a></td>
         </tr>
         @endforeach
       </tbody>
     </table>
 
     {{-- Pagination --}}
-    {!!$categories->appends(Request::except('page'))->render()!!}
-
+    <div class="text-center">
+      {!!$categories->appends(Request::except('page'))->render()!!}
+    </div>
 
   </div>
   <div class="col-md-6">

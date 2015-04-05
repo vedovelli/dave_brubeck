@@ -21,6 +21,7 @@
       <thead>
         <tr>
           <th>Nome Usuário</th>
+          <th width="1%" nowrap>Projetos</th>
           <th>Ações</th>
         </tr>
       </thead>
@@ -28,10 +29,14 @@
         @foreach($users as $user)
         <tr>
           <td>@include('partials.gravatar', ['email' => $user->email, 'size' => 20]) {{$user->name}}</td>
+          <td class="text-center">
+            <a href="{!! route('user.projects', ['id' => $user->id]) !!}" title="Veja os projetos do usuário">
+              {!! count($user->projects) !!}
+            </a>
+          </td>
           <td width="1%" nowrap>
-            [<a href="{!! route('user.projects', ['id' => $user->id]) !!}" title="Veja os projetos do usuário">projetos</a>] 
-            [<a href="{{route('user.edit', ['id' => $user->id, 'page' => $users->currentPage(), 'search' => $search])}}">editar</a>] 
-            [<a href="{{route('user.destroy', ['id' => $user->id, 'page' => $users->currentPage()])}}" class="text-danger">excluir</a>]</td>
+            <a href="{{route('user.edit', ['id' => $user->id, 'page' => $users->currentPage(), 'search' => $search])}}">editar</a> |
+            <a href="{{route('user.destroy', ['id' => $user->id, 'page' => $users->currentPage()])}}" class="text-danger">excluir</a></td>
         </tr>
         @endforeach
       </tbody>

@@ -6,17 +6,9 @@
   <i class="fa fa-clipboard"></i>
   Projetos
 @if(!is_null($project))
-  <small>Atualizar {!! $project->name !!}
-    <small>
-      <a href="{!!route('project.show', ['id' => $project->id])!!}">[cancelar]</a>
-    </small>
-  </small>
+  <small>Atualizar {!! $project->name !!}</small>
 @else
-  <small>criar novo projeto
-    <small>
-      <a href="{!!route('project.index')!!}">[cancelar]</a>
-    </small>
-  </small>
+  <small>criar novo projeto</small>
 @endif
 </h1>
 
