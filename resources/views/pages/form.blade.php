@@ -10,7 +10,7 @@
     <li class="active">{!! $section->name !!}</li>
     @if($page != null)
     <li class="active">
-      <a href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+      <a href="{!! route('page.show', ['page_id' => $page->id]) !!}">
         {!! $page->title !!}
       </a>
     </li>
@@ -24,7 +24,7 @@
 <h1 class="page-header">
   <i class="fa fa-file-code-o"></i>
   @if($page != null)
-  <a href="{!! route('page.show', ['project_id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]) !!}">
+  <a href="{!! route('page.show', ['page_id' => $page->id]) !!}">
     {!! $page->title !!}
   </a>
   @else
@@ -35,7 +35,7 @@
 @include('partials.alerts')
 
 @if($page != null)
-{!! Form::open(['url' => route('page.update', ['id' => $project->id, 'section_id' => $section->id, 'page_id' => $page->id]), 'id' => 'page-form']) !!}
+{!! Form::open(['url' => route('page.update', ['page_id' => $page->id]), 'id' => 'page-form']) !!}
 @else
 {!! Form::open(['url' => route('page.save', ['id' => $project->id, 'section_id' => $section->id]), 'id' => 'page-form']) !!}
 @endif
@@ -45,7 +45,7 @@
   </div>
   <div class="col-md-6 text-right">
     @if($page != null)
-    <a class="text-danger" id="link-remover-pagina" href="{!! route('page.remove', ['project_id' => $project->id, 'page_id' => $page->id]) !!}">[remover página]</a>
+    <a class="text-danger" id="link-remover-pagina" href="{!! route('page.remove', ['page_id' => $page->id]) !!}">[remover página]</a>
     @endif
   </div>
 </div>

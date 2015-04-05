@@ -7,39 +7,30 @@ use \Response as Response;
 
 
 use \App\Dave\Services\Validators\PageValidator as Validator;
-use \App\Dave\Repositories\IProjectRepository as ProjectRepository;
-use \App\Dave\Repositories\ISectionRepository as SectionRepository;
+
 use \App\Dave\Repositories\IPageRepository as PageRepository;
 
 class PageController extends Controller
 {
-  protected $projectRepository;
-  protected $sectionRepository;
   protected $pageRepository;
   protected $validator;
 
-  function __construct(PageRepository $pageRepository, ProjectRepository $projectRepository, SectionRepository $sectionRepository, Validator $validator)
+  function __construct(PageRepository $pageRepository, Validator $validator)
   {
-    $this->projectRepository = $projectRepository;
-    $this->sectionRepository = $sectionRepository;
     $this->pageRepository = $pageRepository;
     $this->validator = $validator;
   }
 
-  public function show($project_id, $section_id, $page_id)
+  public function show($page_id)
   {
-    $parents = $this->getParents(compact('project_id', 'section_id'));
-
-    extract($parents);
-
     $page = $this->pageRepository->show($page_id);
 
-    return view('pages.page')->with(compact('project', 'section', 'page'));
+    return view('pages.page')->with(compact('page'));
   }
 
   public function create($project_id, $section_id)
   {
-    $parents = $this->getParents(compact('project_id', 'section_id'));
+    $parents = $this->pageRepository->getPageParents(compact('project_id', 'section_id'));
 
     extract($parents);
 
@@ -68,21 +59,21 @@ class PageController extends Controller
 
     $page_id = $page->id;
 
-    return redirect()->route('page.edit', compact('project_id', 'section_id', 'page_id'))->with('success', 'Página salva com sucesso');
+    return redirect()->route('page.edit', compact('page_id'))->with('success', 'Página salva com sucesso');
   }
 
-  public function edit($project_id, $section_id, $page_id)
+  public function edit($page_id)
   {
-    $parents = $this->getParents(compact('project_id', 'section_id'));
-
-    extract($parents);
-
     $page = $this->pageRepository->show($page_id);
 
-    return view('pages.form')->with(compact('project', 'section', 'page'));
+    $section = $page->section;
+
+    $project = $section->project;
+
+    return view('pages.form')->with(compact('page', 'section', 'project'));
   }
 
-  public function update($project_id, $section_id, $page_id)
+  public function update($page_id)
   {
 
     if(!$this->validator->passes())
@@ -92,26 +83,18 @@ class PageController extends Controller
 
     extract(Request::all());
 
-    $page = $this->pageRepository->update($page_id, compact('project_id', 'section_id', 'title', 'content'));
+    $page = $this->pageRepository->update($page_id, compact('title', 'content'));
 
     return redirect()->back()->with('success', 'Página atualizada com sucesso!');
   }
 
-  public function remove($project_id, $page_id)
+  public function remove($page_id)
   {
-    $this->pageRepository->destroy($page_id);
+    $page = $this->pageRepository->destroy($page_id);
+
+    $project_id = $page->section->project->id;
 
     return redirect()->route('project.show', ['id' => $project_id])->with('success', 'Página removida com sucesso');
   }
 
-  protected function getParents($ids)
-  {
-    extract($ids);
-
-    $project = $this->projectRepository->show($project_id);
-
-    $section = $this->sectionRepository->show($section_id);
-
-    return compact('project', 'section');
-  }
 }

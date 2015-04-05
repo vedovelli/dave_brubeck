@@ -63,14 +63,19 @@ Route::group(['middleware' => 'auth'], function()
     Route::get('{id}/secao/{section_id}/remover', ['as' => 'section.remove', 'uses' => 'SectionController@destroy']);
 
     /**
-    * Page
+    * Criar nova pagina
     */
-    Route::get('{project_id}/secao/{section_id}/pagina/{page_id}', ['as' => 'page.show', 'uses' => 'PageController@show']);
-    Route::get('{project_id}/secao/{section_id}/nova', ['as' => 'page.create', 'uses' => 'PageController@create']);
+    Route::get('{project_id}/secao/{section_id}/pagina/criar', ['as' => 'page.create', 'uses' => 'PageController@create']);
+
+  });
+
+  Route::group(['prefix' => 'pages'], function()
+  {
     Route::post('{project_id}/secao/{section_id}/pagina/salvar', ['as' => 'page.save', 'uses' => 'PageController@store']);
-    Route::get('{project_id}/secao/{section_id}/pagina/{page_id}/editar', ['as' => 'page.edit', 'uses' => 'PageController@edit']);
-    Route::post('{project_id}/secao/{section_id}/pagina/{page_id}/atualizar', ['as' => 'page.update', 'uses' => 'PageController@update']);
-    Route::get('{project_id}/pagina/{page_id}/remover', ['as' => 'page.remove', 'uses' => 'PageController@remove']);
+    Route::get('{page_id}/editar', ['as' => 'page.edit', 'uses' => 'PageController@edit']);
+    Route::post('{page_id}/atualizar', ['as' => 'page.update', 'uses' => 'PageController@update']);
+    Route::get('{page_id}/remover', ['as' => 'page.remove', 'uses' => 'PageController@remove']);
+    Route::get('{page_id}', ['as' => 'page.show', 'uses' => 'PageController@show']);
   });
 
   /**
