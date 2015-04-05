@@ -69,7 +69,7 @@ Route::group(['middleware' => 'auth'], function()
 
   });
 
-  Route::group(['prefix' => 'pages'], function()
+  Route::group(['prefix' => 'paginas'], function()
   {
     Route::post('{project_id}/secao/{section_id}/pagina/salvar', ['as' => 'page.save', 'uses' => 'PageController@store']);
     Route::get('{page_id}/editar', ['as' => 'page.edit', 'uses' => 'PageController@edit']);
